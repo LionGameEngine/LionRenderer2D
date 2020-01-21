@@ -7,5 +7,5 @@
 //
 
 public protocol PRenderer {
-    
+    func render(renderable: RenderComponent, atPosition: WorldPositionComponent)
 }

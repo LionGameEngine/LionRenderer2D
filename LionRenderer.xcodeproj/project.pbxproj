@@ -7,34 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CD490768664BF2C697781B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A103EBC448EC644A5D4CA2 /* ContentView.swift */; };
-		1A2F907F3D3990762734C7D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A211F8D560992DBC548703 /* Main.storyboard */; };
-		21875E74EB69F8E71E876D32 /* LionRenderer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 06053C3820DC54CD151AC9A7 /* LionRenderer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		12B8AEF021A00BB6E631E868 /* ConsoleRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2ACE36921D058EF587F551 /* ConsoleRenderer.swift */; };
+		199E660A96B32AEEC56F6337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7FADED0AB7A7D460715A19 /* Main.storyboard */; };
+		2023DFD1348AA4E4BD559246 /* LionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DAB964DD75ED2D98AB0B341 /* LionRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		211A211B474AC746C4427C06 /* PRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B982E59B76095286D652FA /* PRenderer.swift */; };
+		22DF990DA6264DB0955ADA02 /* LionRenderer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 06053C3820DC54CD151AC9A7 /* LionRenderer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		22FA9508DE3512A004BA8B36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29181C169249E2CA3BEBB4F8 /* LaunchScreen.storyboard */; };
 		324EF11C8377E489937E899E /* LionRenderer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2987C8F51A1653B8023256AD /* LionRenderer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		34CB695D3CCB2E3F0A49D584 /* Pods_LionRendererTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1DD04A7337DD0AD2B93A95 /* Pods_LionRendererTests.framework */; };
-		40F7509D877DBF970DD08BE9 /* LionRenderer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06053C3820DC54CD151AC9A7 /* LionRenderer.framework */; };
-		4246C42C23C08BDE6516B92B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 625F96FC1E69BABC86DB580C /* Preview Assets.xcassets */; };
-		4A5E5F47E4D2A4F43DD71409 /* Pods_ExampleOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64120C7C84A1AB70E20C4B36 /* Pods_ExampleOSX.framework */; };
-		4B43CB4D7B3FFBED5241644D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8E604747F604D7ABB34F420 /* Preview Assets.xcassets */; };
-		53A55BE50478190F978833CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9FE0796198F38BBD4098DD /* AppDelegate.swift */; };
+		366F95615212AC8EB39823CE /* RenderSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EA3CDFF8309891D83F39D /* RenderSystem.swift */; };
+		3A40EC2A51DF63E1707A028E /* ConsoleRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2ACE36921D058EF587F551 /* ConsoleRenderer.swift */; };
+		3D39BB2DE8C0F0A0264817A0 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345DF053B1BF130389F08676 /* Pods_Example.framework */; };
+		4A8D2CC6D0F283EB9B4F3FA8 /* Pods_LionRenderer_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F370A86593FA765B534ADF0 /* Pods_LionRenderer_iOS.framework */; };
+		50669B9244CFFD1C77390857 /* Pods_LionRenderer_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6526AA347B19B4D9CEB2C4B1 /* Pods_LionRenderer_watchOS.framework */; };
+		511D6BA895693C4D2C4375AB /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79816F4EE6BC83CBC1074D3E /* MetalRenderer.swift */; };
+		5275A7E30BED62C2D9B39DB4 /* RenderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71FC6401FF4C792A7BB836 /* RenderComponent.swift */; };
 		57EDF13249C18708766C8C5B /* LionRenderer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 06053C3820DC54CD151AC9A7 /* LionRenderer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		58087D3B116100823E55B6AD /* RenderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71FC6401FF4C792A7BB836 /* RenderComponent.swift */; };
 		59E0120451830BFD176D626B /* LionRenderer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2987C8F51A1653B8023256AD /* LionRenderer.framework */; };
 		5A19A77DECE27300B5152B29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12D1FA0DCE763B080F230F89 /* Assets.xcassets */; };
-		5BBD3FD162DD79DB5C82DB90 /* Pods_LionRenderer_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC3433354C1A77831E8FE6A /* Pods_LionRenderer_macOS.framework */; };
-		6D65405B1D2067FCEDAA79A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A338CC08B2397756FD7AA1C /* Assets.xcassets */; };
-		77251BDBD423694D3FF53BCA /* PRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637C319BF2FBFF7F28A6347B /* PRenderer.swift */; };
-		795B4845D62776EC6E171E0E /* PRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637C319BF2FBFF7F28A6347B /* PRenderer.swift */; };
+		5BB356DA2EAFD1E11ED1C442 /* LionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DAB964DD75ED2D98AB0B341 /* LionRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CA6C96E1DA90C12D600BD4B /* PRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B982E59B76095286D652FA /* PRenderer.swift */; };
+		5F5FF891BBC07ABF35869F71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51D9FEFF801DCADDE002ABF /* Main.storyboard */; };
+		6403D9A90B13CCFF1B289FD4 /* WorldPositionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F905260ED2524378747C /* WorldPositionComponent.swift */; };
+		6605D0B4E5130DC4C6F7AB31 /* Pods_LionRenderer_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E61352A2F04A60BE6AF640C /* Pods_LionRenderer_macOS.framework */; };
+		66E537AEE3654360A21C1F8F /* ConsoleRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2ACE36921D058EF587F551 /* ConsoleRenderer.swift */; };
+		718E47177C740EA6BA58151A /* Pods_LionRendererTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31800186DE89CD25C766BF1B /* Pods_LionRendererTests.framework */; };
+		72AF890635C181C4F6C27C98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DCE6D22AB21668C25644BE /* AppDelegate.swift */; };
+		769B88FB1C402C9DFC260EF0 /* RenderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71FC6401FF4C792A7BB836 /* RenderComponent.swift */; };
+		82CEF31C432B9CF2B1F943E3 /* RenderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71FC6401FF4C792A7BB836 /* RenderComponent.swift */; };
+		87A0CBF00F5613650C7B7753 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603422A21257C18D1427F679 /* Game.swift */; };
+		8A2DDF984184F01BE7247CA7 /* RenderSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EA3CDFF8309891D83F39D /* RenderSystem.swift */; };
+		8CB148145A570E2955579190 /* LionRenderer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06053C3820DC54CD151AC9A7 /* LionRenderer.framework */; };
 		8D75B7748C4FA3BF8826050F /* LionRenderer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06053C3820DC54CD151AC9A7 /* LionRenderer.framework */; };
 		93423C6A407EB03551B54C5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2901C14275EFCD16FA47E6BD /* SceneDelegate.swift */; };
-		A073A9660DDF6AB5588AEA57 /* Pods_LionRenderer_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02C58BE2D6AFA0C2ACD9B42 /* Pods_LionRenderer_tvOS.framework */; };
-		A450FB1A9023A8CBD2568ABC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE900FFC550E0C6A6AA70B /* ContentView.swift */; };
-		C6DFEEC62AA9506E30751AA4 /* PRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637C319BF2FBFF7F28A6347B /* PRenderer.swift */; };
+		9A1327E4BF4372C51097E1DD /* Pods_LionRenderer_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464BE9CB8F5B43360D0D529A /* Pods_LionRenderer_tvOS.framework */; };
+		9E64BD224472F207E52CC4C9 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603422A21257C18D1427F679 /* Game.swift */; };
+		9E95AA3D6E33CEFBB1E3EB8A /* LionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DAB964DD75ED2D98AB0B341 /* LionRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0D2BEBCECFF661C56746020 /* RenderSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EA3CDFF8309891D83F39D /* RenderSystem.swift */; };
+		A1ECBD0D1965BAD005D125EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC874840E501CD7C3BAADC63 /* ViewController.swift */; };
+		A2690639B08831C276577CB2 /* ConsoleRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2ACE36921D058EF587F551 /* ConsoleRenderer.swift */; };
+		AC7456593F83260E399C056F /* WorldPositionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F905260ED2524378747C /* WorldPositionComponent.swift */; };
+		AD13B363FA9B68F8D4FC8C1F /* WorldPositionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F905260ED2524378747C /* WorldPositionComponent.swift */; };
+		B198EF6074957C0799779A58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09A24EFCFC43D2675521B43 /* ViewController.swift */; };
+		C2627B6FC5DF9DFA860EC7F1 /* WorldPositionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F905260ED2524378747C /* WorldPositionComponent.swift */; };
 		CD14499E31D5647B4CAD6A3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729BC6687157A5FA45D6258 /* AppDelegate.swift */; };
-		D56BE57CFB42B4CF1F4A0A1A /* Pods_LionRenderer_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E35E03E6603ED9744A010994 /* Pods_LionRenderer_iOS.framework */; };
-		E651774E1396339159C17AA3 /* Pods_ExampleIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA3064E2F21ACFFDB5FC6C9 /* Pods_ExampleIOS.framework */; };
-		F3143C3D078BC30DC859F6D2 /* PRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637C319BF2FBFF7F28A6347B /* PRenderer.swift */; };
-		FF87A84FD37CA89F71DD90B1 /* Pods_LionRenderer_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 102DE954AB911FE86516B41F /* Pods_LionRenderer_watchOS.framework */; };
+		CE9096166A32FA5455524DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF91668049A3BA26EF7ACFA3 /* Assets.xcassets */; };
+		D1AAC7D932299E86C87F707D /* PRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B982E59B76095286D652FA /* PRenderer.swift */; };
+		DCDF6DB90C9BF533F2AA05C3 /* Pods_ExampleIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040599A660F343112E69B0D7 /* Pods_ExampleIOS.framework */; };
+		DFB1F3FCA9CEB1E887F22B74 /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79816F4EE6BC83CBC1074D3E /* MetalRenderer.swift */; };
+		E42FEF2D1CF4801F13B6C893 /* LionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DAB964DD75ED2D98AB0B341 /* LionRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA8898CA722307C1B94750F1 /* RenderSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EA3CDFF8309891D83F39D /* RenderSystem.swift */; };
+		FEE8FF9E1B225F8614DEB4B3 /* PRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B982E59B76095286D652FA /* PRenderer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +75,7 @@
 			remoteGlobalIDString = 98EFCE5254323C5DA04A1C3B;
 			remoteInfo = LionRenderer_macOS;
 		};
-		8F5C12D9A95873607E83FF7E /* PBXContainerItemProxy */ = {
+		BD8E38AD9C25D39458CCE1A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0674C26C81B6261887C3D090 /* Project object */;
 			proxyType = 1;
@@ -62,17 +85,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		09A83A4FC3728B577068BF9E /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				21875E74EB69F8E71E876D32 /* LionRenderer.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		975DF58C0A0C0F09EF099FED /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,6 +92,17 @@
 			dstSubfolderSpec = 10;
 			files = (
 				324EF11C8377E489937E899E /* LionRenderer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0ADE21D919C716D85D6948D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				22DF990DA6264DB0955ADA02 /* LionRenderer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,79 +121,85 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		040599A660F343112E69B0D7 /* Pods_ExampleIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06053C3820DC54CD151AC9A7 /* LionRenderer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LionRenderer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		102DE954AB911FE86516B41F /* Pods_LionRenderer_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionRenderer_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DCE6D22AB21668C25644BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DAB964DD75ED2D98AB0B341 /* LionRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LionRenderer.h; sourceTree = "<group>"; };
 		11DD6BB86247585CCFB1732A /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
-		1286CD7B4D999FE70D650429 /* Pods-LionRendererTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRendererTests.debug.xcconfig"; path = "Target Support Files/Pods-LionRendererTests/Pods-LionRendererTests.debug.xcconfig"; sourceTree = "<group>"; };
 		12D1FA0DCE763B080F230F89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		15A7F4C56F21B1DC0647F3A4 /* Pods-LionRenderer_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer_macOS.debug.xcconfig"; path = "Target Support Files/Pods-LionRenderer_macOS/Pods-LionRenderer_macOS.debug.xcconfig"; sourceTree = "<group>"; };
-		28CB823F5A42F93094C17F25 /* Pods-ExampleIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleIOS.debug.xcconfig"; path = "Target Support Files/Pods-ExampleIOS/Pods-ExampleIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		15B982E59B76095286D652FA /* PRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRenderer.swift; sourceTree = "<group>"; };
 		2901C14275EFCD16FA47E6BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2987C8F51A1653B8023256AD /* LionRenderer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LionRenderer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A9BD3F47954ABC364432CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2E16DD81164888FE1D51868C /* Pods-LionRendererTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRendererTests.release.xcconfig"; path = "Target Support Files/Pods-LionRendererTests/Pods-LionRendererTests.release.xcconfig"; sourceTree = "<group>"; };
-		323F2C47777158648ED2A571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		35FB874B0BFBC91A4FB56C97 /* Pods-LionRenderer_watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer_watchOS.release.xcconfig"; path = "Target Support Files/Pods-LionRenderer_watchOS/Pods-LionRenderer_watchOS.release.xcconfig"; sourceTree = "<group>"; };
-		3A9FE0796198F38BBD4098DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FA3064E2F21ACFFDB5FC6C9 /* Pods_ExampleIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		503B17A0F84939CE3BBCB0F4 /* Pods-ExampleOSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleOSX.release.xcconfig"; path = "Target Support Files/Pods-ExampleOSX/Pods-ExampleOSX.release.xcconfig"; sourceTree = "<group>"; };
-		625F96FC1E69BABC86DB580C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D5EA3CDFF8309891D83F39D /* RenderSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderSystem.swift; sourceTree = "<group>"; };
+		31800186DE89CD25C766BF1B /* Pods_LionRendererTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionRendererTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F1FC8AA5998D00B2EB5A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		345DF053B1BF130389F08676 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A6CB44FFFAF77F9C9525A50 /* Pods-LionRenderer_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer_iOS.debug.xcconfig"; path = "Target Support Files/Pods-LionRenderer_iOS/Pods-LionRenderer_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3D71FC6401FF4C792A7BB836 /* RenderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderComponent.swift; sourceTree = "<group>"; };
+		3E61352A2F04A60BE6AF640C /* Pods_LionRenderer_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionRenderer_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FDDACD19E79E6309B56F6A /* Pods-ExampleIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleIOS.release.xcconfig"; path = "Target Support Files/Pods-ExampleIOS/Pods-ExampleIOS.release.xcconfig"; sourceTree = "<group>"; };
+		4399A4D1F90B203A7457B8F1 /* Pods-LionRenderer_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer_tvOS.release.xcconfig"; path = "Target Support Files/Pods-LionRenderer_tvOS/Pods-LionRenderer_tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		464BE9CB8F5B43360D0D529A /* Pods_LionRenderer_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionRenderer_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD95F1B533206870C3F9530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F370A86593FA765B534ADF0 /* Pods_LionRenderer_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionRenderer_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51A7CC54FC55C3F248F48A0F /* Pods-LionRenderer_watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer_watchOS.debug.xcconfig"; path = "Target Support Files/Pods-LionRenderer_watchOS/Pods-LionRenderer_watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		56DE315D728BF832966F943D /* Pods-LionRenderer_watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer_watchOS.release.xcconfig"; path = "Target Support Files/Pods-LionRenderer_watchOS/Pods-LionRenderer_watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		603422A21257C18D1427F679 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		634CA228C845141F0C577C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		637C319BF2FBFF7F28A6347B /* PRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRenderer.swift; sourceTree = "<group>"; };
-		64120C7C84A1AB70E20C4B36 /* Pods_ExampleOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6619A0922054C1B54AC39590 /* Pods-LionRenderer_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer_iOS.release.xcconfig"; path = "Target Support Files/Pods-LionRenderer_iOS/Pods-LionRenderer_iOS.release.xcconfig"; sourceTree = "<group>"; };
-		6C0514041EFC0F4CC4D987E4 /* Pods-ExampleIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleIOS.release.xcconfig"; path = "Target Support Files/Pods-ExampleIOS/Pods-ExampleIOS.release.xcconfig"; sourceTree = "<group>"; };
-		6FAE900FFC550E0C6A6AA70B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6526AA347B19B4D9CEB2C4B1 /* Pods_LionRenderer_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionRenderer_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C2ACE36921D058EF587F551 /* ConsoleRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleRenderer.swift; sourceTree = "<group>"; };
 		7143C89583421139BE031F93 /* LionRendererTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionRendererTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		795E33A9E7A90F8A8926801B /* ExampleIOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ExampleIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A338CC08B2397756FD7AA1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79816F4EE6BC83CBC1074D3E /* MetalRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
+		79AF26C1C37B53AB0FDA97FA /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		834892F3BD2AFD89C66D5A97 /* Pods-LionRenderer_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer_tvOS.debug.xcconfig"; path = "Target Support Files/Pods-LionRenderer_tvOS/Pods-LionRenderer_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8833F905260ED2524378747C /* WorldPositionComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldPositionComponent.swift; sourceTree = "<group>"; };
+		8A7A0525E503BAD63614199F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E6778BFAFE5AE6E1F829AC7 /* Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Example.entitlements; sourceTree = "<group>"; };
 		8F02E6AF5455B0EFEB9BC8F3 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		8F8750998ED11737E605881B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		96B42481A39A2A3CC97378E6 /* Pods-LionRenderer_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer_tvOS.release.xcconfig"; path = "Target Support Files/Pods-LionRenderer_tvOS/Pods-LionRenderer_tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		A95CF81D3566EA179FC1CF12 /* Pods-LionRenderer_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer_tvOS.debug.xcconfig"; path = "Target Support Files/Pods-LionRenderer_tvOS/Pods-LionRenderer_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		AA1DD04A7337DD0AD2B93A95 /* Pods_LionRendererTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionRendererTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		961F8A7455B6379F01A605BB /* Pods-LionRenderer_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer_iOS.release.xcconfig"; path = "Target Support Files/Pods-LionRenderer_iOS/Pods-LionRenderer_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		A34ACDECE595B50CFDA05F8E /* Pods-LionRendererTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRendererTests.debug.xcconfig"; path = "Target Support Files/Pods-LionRendererTests/Pods-LionRendererTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BB54C1EE19FFE24D43DCD4B4 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		C02C58BE2D6AFA0C2ACD9B42 /* Pods_LionRenderer_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionRenderer_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2A103EBC448EC644A5D4CA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C3DC72619FB2C7787B21065F /* ExampleOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4E0CDA6F87E958279B69019 /* Pods-LionRenderer_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer_macOS.release.xcconfig"; path = "Target Support Files/Pods-LionRenderer_macOS/Pods-LionRenderer_macOS.release.xcconfig"; sourceTree = "<group>"; };
-		C8E604747F604D7ABB34F420 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D3A099B220FC7ED4EB81D7A9 /* Pods-LionRenderer_watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer_watchOS.debug.xcconfig"; path = "Target Support Files/Pods-LionRenderer_watchOS/Pods-LionRenderer_watchOS.debug.xcconfig"; sourceTree = "<group>"; };
-		D587126E3FA68309CDD6E8A2 /* Pods-LionRenderer_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer_iOS.debug.xcconfig"; path = "Target Support Files/Pods-LionRenderer_iOS/Pods-LionRenderer_iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		DAC3433354C1A77831E8FE6A /* Pods_LionRenderer_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionRenderer_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC786898871BA73087A4741C /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC874840E501CD7C3BAADC63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6E69EC574F30DE2A879584E /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C828F01A7A6A4E27C08A1123 /* Pods-LionRendererTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRendererTests.release.xcconfig"; path = "Target Support Files/Pods-LionRendererTests/Pods-LionRendererTests.release.xcconfig"; sourceTree = "<group>"; };
+		D15D55F45B726CF7152EF68C /* Pods-LionRenderer_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer_macOS.debug.xcconfig"; path = "Target Support Files/Pods-LionRenderer_macOS/Pods-LionRenderer_macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		DBC5062F21AFC591CF7EE7B3 /* LionRenderer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LionRenderer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCC0B616A56EAD3F79B52E83 /* ExampleOSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExampleOSX.entitlements; sourceTree = "<group>"; };
+		DC99E798AF4CC463E313905B /* Pods-ExampleIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleIOS.debug.xcconfig"; path = "Target Support Files/Pods-ExampleIOS/Pods-ExampleIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		DF91668049A3BA26EF7ACFA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E09A24EFCFC43D2675521B43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0DA4E9B683D69C0B59A3175 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		E35E03E6603ED9744A010994 /* Pods_LionRenderer_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionRenderer_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E611A7746F7A5D6D8C657C77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E729BC6687157A5FA45D6258 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EFA3DA794456A33A6AE294AA /* Pods-ExampleOSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleOSX.debug.xcconfig"; path = "Target Support Files/Pods-ExampleOSX/Pods-ExampleOSX.debug.xcconfig"; sourceTree = "<group>"; };
+		FC7076D2C96E55AE44D7E0FA /* Pods-LionRenderer_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer_macOS.release.xcconfig"; path = "Target Support Files/Pods-LionRenderer_macOS/Pods-LionRenderer_macOS.release.xcconfig"; sourceTree = "<group>"; };
 		FFDA72BC055257DD84E8AA31 /* LionRenderer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LionRenderer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1359E5E8F57782AE83950B15 /* Frameworks */ = {
+		1B556412489033D3A69DA11F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BBD3FD162DD79DB5C82DB90 /* Pods_LionRenderer_macOS.framework in Frameworks */,
+				9A1327E4BF4372C51097E1DD /* Pods_LionRenderer_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C62FD4F68E2D8CBB5758C18 /* Frameworks */ = {
+		530C7785E55FA5F7FB76C6A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF87A84FD37CA89F71DD90B1 /* Pods_LionRenderer_watchOS.framework in Frameworks */,
+				8CB148145A570E2955579190 /* LionRenderer.framework in Frameworks */,
+				3D39BB2DE8C0F0A0264817A0 /* Pods_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		624C6EB2C57F818A6C4A3A73 /* Frameworks */ = {
+		66CA693E0ABD741E1325329B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40F7509D877DBF970DD08BE9 /* LionRenderer.framework in Frameworks */,
-				4A5E5F47E4D2A4F43DD71409 /* Pods_ExampleOSX.framework in Frameworks */,
+				6605D0B4E5130DC4C6F7AB31 /* Pods_LionRenderer_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +208,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				59E0120451830BFD176D626B /* LionRenderer.framework in Frameworks */,
-				E651774E1396339159C17AA3 /* Pods_ExampleIOS.framework in Frameworks */,
+				DCDF6DB90C9BF533F2AA05C3 /* Pods_ExampleIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84F162B4B60D2B7BC86CEB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50669B9244CFFD1C77390857 /* Pods_LionRenderer_watchOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFEBD39D93273D7365D9600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8D2CC6D0F283EB9B4F3FA8 /* Pods_LionRenderer_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,23 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D75B7748C4FA3BF8826050F /* LionRenderer.framework in Frameworks */,
-				34CB695D3CCB2E3F0A49D584 /* Pods_LionRendererTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9505CE577A76190E4E878EA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D56BE57CFB42B4CF1F4A0A1A /* Pods_LionRenderer_iOS.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5DE3D64077FBF11C1A1FFC3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A073A9660DDF6AB5588AEA57 /* Pods_LionRenderer_tvOS.framework in Frameworks */,
+				718E47177C740EA6BA58151A /* Pods_LionRendererTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,13 +243,13 @@
 		010AFF59E17157090066AD11 /* ExampleIOS */ = {
 			isa = PBXGroup;
 			children = (
-				96182D80A71271779F037BEE /* Preview Content */,
 				E729BC6687157A5FA45D6258 /* AppDelegate.swift */,
 				12D1FA0DCE763B080F230F89 /* Assets.xcassets */,
-				6FAE900FFC550E0C6A6AA70B /* ContentView.swift */,
 				634CA228C845141F0C577C24 /* Info.plist */,
 				29181C169249E2CA3BEBB4F8 /* LaunchScreen.storyboard */,
+				BE7FADED0AB7A7D460715A19 /* Main.storyboard */,
 				2901C14275EFCD16FA47E6BD /* SceneDelegate.swift */,
+				E09A24EFCFC43D2675521B43 /* ViewController.swift */,
 			);
 			path = ExampleIOS;
 			sourceTree = "<group>";
@@ -238,8 +267,10 @@
 		2FE06726ECE1B0FCB71D25F3 /* LionRenderer */ = {
 			isa = PBXGroup;
 			children = (
+				840298EF0347595C903B836A /* Rendering */,
+				738336242683B4E569592A38 /* Transforms */,
 				8F8750998ED11737E605881B /* Info.plist */,
-				637C319BF2FBFF7F28A6347B /* PRenderer.swift */,
+				0DAB964DD75ED2D98AB0B341 /* LionRenderer.h */,
 			);
 			path = LionRenderer;
 			sourceTree = "<group>";
@@ -247,8 +278,8 @@
 		3264B1CDADDE4C7BB2F1B7EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				BC786898871BA73087A4741C /* Example.app */,
 				795E33A9E7A90F8A8926801B /* ExampleIOS.app */,
-				C3DC72619FB2C7787B21065F /* ExampleOSX.app */,
 				2987C8F51A1653B8023256AD /* LionRenderer.framework */,
 				06053C3820DC54CD151AC9A7 /* LionRenderer.framework */,
 				DBC5062F21AFC591CF7EE7B3 /* LionRenderer.framework */,
@@ -258,63 +289,62 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		364EF83DC854F60F4059FEFC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3FA3064E2F21ACFFDB5FC6C9 /* Pods_ExampleIOS.framework */,
-				64120C7C84A1AB70E20C4B36 /* Pods_ExampleOSX.framework */,
-				AA1DD04A7337DD0AD2B93A95 /* Pods_LionRendererTests.framework */,
-				E35E03E6603ED9744A010994 /* Pods_LionRenderer_iOS.framework */,
-				DAC3433354C1A77831E8FE6A /* Pods_LionRenderer_macOS.framework */,
-				C02C58BE2D6AFA0C2ACD9B42 /* Pods_LionRenderer_tvOS.framework */,
-				102DE954AB911FE86516B41F /* Pods_LionRenderer_watchOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		3C206018CCC09E35C1B4724B = {
 			isa = PBXGroup;
 			children = (
 				24E8999F4BC0826FB3B5FAFD /* Configurations */,
+				9A5A71C3E7E31358EE4646EA /* Example */,
 				4A348D9A3370999DF03CEF43 /* ExampleCommon */,
 				010AFF59E17157090066AD11 /* ExampleIOS */,
-				DFD807750B2784A2B854A6F9 /* ExampleOSX */,
 				2FE06726ECE1B0FCB71D25F3 /* LionRenderer */,
 				908E1BA3BEDCA458B203509A /* LionRendererTests */,
 				BB54C1EE19FFE24D43DCD4B4 /* Package.swift */,
 				3264B1CDADDE4C7BB2F1B7EC /* Products */,
-				42378245A79396F470BC92B1 /* Pods */,
-				364EF83DC854F60F4059FEFC /* Frameworks */,
+				DF42B40FF01EC2AB5072FAE4 /* Pods */,
+				69734B2789F2472924D20540 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		42378245A79396F470BC92B1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				28CB823F5A42F93094C17F25 /* Pods-ExampleIOS.debug.xcconfig */,
-				6C0514041EFC0F4CC4D987E4 /* Pods-ExampleIOS.release.xcconfig */,
-				EFA3DA794456A33A6AE294AA /* Pods-ExampleOSX.debug.xcconfig */,
-				503B17A0F84939CE3BBCB0F4 /* Pods-ExampleOSX.release.xcconfig */,
-				1286CD7B4D999FE70D650429 /* Pods-LionRendererTests.debug.xcconfig */,
-				2E16DD81164888FE1D51868C /* Pods-LionRendererTests.release.xcconfig */,
-				D587126E3FA68309CDD6E8A2 /* Pods-LionRenderer_iOS.debug.xcconfig */,
-				6619A0922054C1B54AC39590 /* Pods-LionRenderer_iOS.release.xcconfig */,
-				15A7F4C56F21B1DC0647F3A4 /* Pods-LionRenderer_macOS.debug.xcconfig */,
-				C4E0CDA6F87E958279B69019 /* Pods-LionRenderer_macOS.release.xcconfig */,
-				A95CF81D3566EA179FC1CF12 /* Pods-LionRenderer_tvOS.debug.xcconfig */,
-				96B42481A39A2A3CC97378E6 /* Pods-LionRenderer_tvOS.release.xcconfig */,
-				D3A099B220FC7ED4EB81D7A9 /* Pods-LionRenderer_watchOS.debug.xcconfig */,
-				35FB874B0BFBC91A4FB56C97 /* Pods-LionRenderer_watchOS.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		4A348D9A3370999DF03CEF43 /* ExampleCommon */ = {
 			isa = PBXGroup;
 			children = (
+				603422A21257C18D1427F679 /* Game.swift */,
+				79816F4EE6BC83CBC1074D3E /* MetalRenderer.swift */,
 			);
 			path = ExampleCommon;
+			sourceTree = "<group>";
+		};
+		69734B2789F2472924D20540 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				345DF053B1BF130389F08676 /* Pods_Example.framework */,
+				040599A660F343112E69B0D7 /* Pods_ExampleIOS.framework */,
+				31800186DE89CD25C766BF1B /* Pods_LionRendererTests.framework */,
+				4F370A86593FA765B534ADF0 /* Pods_LionRenderer_iOS.framework */,
+				3E61352A2F04A60BE6AF640C /* Pods_LionRenderer_macOS.framework */,
+				464BE9CB8F5B43360D0D529A /* Pods_LionRenderer_tvOS.framework */,
+				6526AA347B19B4D9CEB2C4B1 /* Pods_LionRenderer_watchOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		738336242683B4E569592A38 /* Transforms */ = {
+			isa = PBXGroup;
+			children = (
+				8833F905260ED2524378747C /* WorldPositionComponent.swift */,
+			);
+			path = Transforms;
+			sourceTree = "<group>";
+		};
+		840298EF0347595C903B836A /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				6C2ACE36921D058EF587F551 /* ConsoleRenderer.swift */,
+				15B982E59B76095286D652FA /* PRenderer.swift */,
+				3D71FC6401FF4C792A7BB836 /* RenderComponent.swift */,
+				2D5EA3CDFF8309891D83F39D /* RenderSystem.swift */,
+			);
+			path = Rendering;
 			sourceTree = "<group>";
 		};
 		908E1BA3BEDCA458B203509A /* LionRendererTests */ = {
@@ -324,46 +354,87 @@
 			path = LionRendererTests;
 			sourceTree = "<group>";
 		};
-		96182D80A71271779F037BEE /* Preview Content */ = {
+		9A5A71C3E7E31358EE4646EA /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				C8E604747F604D7ABB34F420 /* Preview Assets.xcassets */,
+				06DCE6D22AB21668C25644BE /* AppDelegate.swift */,
+				DF91668049A3BA26EF7ACFA3 /* Assets.xcassets */,
+				8E6778BFAFE5AE6E1F829AC7 /* Example.entitlements */,
+				31F1FC8AA5998D00B2EB5A26 /* Info.plist */,
+				C51D9FEFF801DCADDE002ABF /* Main.storyboard */,
+				BC874840E501CD7C3BAADC63 /* ViewController.swift */,
 			);
-			path = "Preview Content";
+			path = Example;
 			sourceTree = "<group>";
 		};
-		B6223396B020AC1AFB91FA69 /* Preview Content */ = {
+		DF42B40FF01EC2AB5072FAE4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				625F96FC1E69BABC86DB580C /* Preview Assets.xcassets */,
+				C6E69EC574F30DE2A879584E /* Pods-Example.debug.xcconfig */,
+				79AF26C1C37B53AB0FDA97FA /* Pods-Example.release.xcconfig */,
+				DC99E798AF4CC463E313905B /* Pods-ExampleIOS.debug.xcconfig */,
+				42FDDACD19E79E6309B56F6A /* Pods-ExampleIOS.release.xcconfig */,
+				A34ACDECE595B50CFDA05F8E /* Pods-LionRendererTests.debug.xcconfig */,
+				C828F01A7A6A4E27C08A1123 /* Pods-LionRendererTests.release.xcconfig */,
+				3A6CB44FFFAF77F9C9525A50 /* Pods-LionRenderer_iOS.debug.xcconfig */,
+				961F8A7455B6379F01A605BB /* Pods-LionRenderer_iOS.release.xcconfig */,
+				D15D55F45B726CF7152EF68C /* Pods-LionRenderer_macOS.debug.xcconfig */,
+				FC7076D2C96E55AE44D7E0FA /* Pods-LionRenderer_macOS.release.xcconfig */,
+				834892F3BD2AFD89C66D5A97 /* Pods-LionRenderer_tvOS.debug.xcconfig */,
+				4399A4D1F90B203A7457B8F1 /* Pods-LionRenderer_tvOS.release.xcconfig */,
+				51A7CC54FC55C3F248F48A0F /* Pods-LionRenderer_watchOS.debug.xcconfig */,
+				56DE315D728BF832966F943D /* Pods-LionRenderer_watchOS.release.xcconfig */,
 			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		DFD807750B2784A2B854A6F9 /* ExampleOSX */ = {
-			isa = PBXGroup;
-			children = (
-				B6223396B020AC1AFB91FA69 /* Preview Content */,
-				3A9FE0796198F38BBD4098DD /* AppDelegate.swift */,
-				7A338CC08B2397756FD7AA1C /* Assets.xcassets */,
-				C2A103EBC448EC644A5D4CA2 /* ContentView.swift */,
-				DCC0B616A56EAD3F79B52E83 /* ExampleOSX.entitlements */,
-				E611A7746F7A5D6D8C657C77 /* Info.plist */,
-				A5A211F8D560992DBC548703 /* Main.storyboard */,
-			);
-			path = ExampleOSX;
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6CD5FA2B27DF8C43C6336658 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E95AA3D6E33CEFBB1E3EB8A /* LionRenderer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76EF769F98F68822E411093 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB356DA2EAFD1E11ED1C442 /* LionRenderer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45164836F6ADAA0006AC18C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42FEF2D1CF4801F13B6C893 /* LionRenderer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0DEC1CC4D777E95983A948 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2023DFD1348AA4E4BD559246 /* LionRenderer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		0F2FF90B1852B9BB5A6F72C7 /* LionRenderer_watchOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3820290C8C4A982AC846DF40 /* Build configuration list for PBXNativeTarget "LionRenderer_watchOS" */;
 			buildPhases = (
-				C1CE689D7492C14CFF74B360 /* [CP] Check Pods Manifest.lock */,
+				92F52C4D2233ED0FB909E8DD /* [CP] Check Pods Manifest.lock */,
+				FC0DEC1CC4D777E95983A948 /* Headers */,
 				C859BECB8D347B112E6C183C /* Sources */,
-				3C62FD4F68E2D8CBB5758C18 /* Frameworks */,
+				A84F162B4B60D2B7BC86CEB6 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -374,13 +445,36 @@
 			productReference = FFDA72BC055257DD84E8AA31 /* LionRenderer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		1BC64D76F1EC0A0CB6E9952B /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F8F1B1B5926A8A11B34666A /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				854BDA2167021D8D765254A5 /* [CP] Check Pods Manifest.lock */,
+				920EEE7A7C0E44D818A21F07 /* Sources */,
+				5A9C3F5E959EC7D8F791D204 /* Resources */,
+				530C7785E55FA5F7FB76C6A1 /* Frameworks */,
+				B0ADE21D919C716D85D6948D /* Embed Frameworks */,
+				390B8B8267FDBE0FDB98F6A5 /* SwiftLint */,
+				1EF28FBC02D9C53B036EAD66 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED5AFEF044EBE7D99E71491B /* PBXTargetDependency */,
+			);
+			name = Example;
+			productName = Example;
+			productReference = BC786898871BA73087A4741C /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 		23FAA9769155332F24EDD87C /* LionRenderer_tvOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 775F002BFC37AC6ABB0545E5 /* Build configuration list for PBXNativeTarget "LionRenderer_tvOS" */;
 			buildPhases = (
-				1FE0CA3F120F4285587BA367 /* [CP] Check Pods Manifest.lock */,
+				1AAD9FF352D778F9822278AA /* [CP] Check Pods Manifest.lock */,
+				B76EF769F98F68822E411093 /* Headers */,
 				CF4EFC819068FBDE99574875 /* Sources */,
-				F5DE3D64077FBF11C1A1FFC3 /* Frameworks */,
+				1B556412489033D3A69DA11F /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -391,33 +485,11 @@
 			productReference = DBC5062F21AFC591CF7EE7B3 /* LionRenderer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3447122310415A097A72D8BA /* ExampleOSX */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5C4BDC20E2D5BDE4D39BE1CF /* Build configuration list for PBXNativeTarget "ExampleOSX" */;
-			buildPhases = (
-				54F503D161EB5741723085C9 /* [CP] Check Pods Manifest.lock */,
-				D97B6888BB4B4E93844241D1 /* Sources */,
-				19DEE6D97984DDA8D6BDEA1A /* Resources */,
-				624C6EB2C57F818A6C4A3A73 /* Frameworks */,
-				09A83A4FC3728B577068BF9E /* Embed Frameworks */,
-				871354BCBCC36DAF3D7BB925 /* SwiftLint */,
-				725B1516BEFCCD59504B1658 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F94924C6A9251B66CC45B6DA /* PBXTargetDependency */,
-			);
-			name = ExampleOSX;
-			productName = ExampleOSX;
-			productReference = C3DC72619FB2C7787B21065F /* ExampleOSX.app */;
-			productType = "com.apple.product-type.application";
-		};
 		381B033A499A6F021EF5D627 /* LionRendererTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5834584F2ABEDDEADD79577 /* Build configuration list for PBXNativeTarget "LionRendererTests" */;
 			buildPhases = (
-				A9AA98E8E435F2964562897E /* [CP] Check Pods Manifest.lock */,
+				01FE711480558C594B707B0D /* [CP] Check Pods Manifest.lock */,
 				9913815B18EAA2AE78B89954 /* Sources */,
 				E91E8653C67C537A11E95FC0 /* Frameworks */,
 				F5A99A1AA2D6157FDA2B212C /* Embed Frameworks */,
@@ -436,13 +508,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 900A651F6E62C5D9D6E30476 /* Build configuration list for PBXNativeTarget "ExampleIOS" */;
 			buildPhases = (
-				8A559792E8E7CD53F266CF5B /* [CP] Check Pods Manifest.lock */,
+				9939EF31FF57171940AE7298 /* [CP] Check Pods Manifest.lock */,
 				197B7BFD82E6576D19CD2001 /* Sources */,
 				26F8F6889B6C9EA099B707FB /* Resources */,
 				7138A449F365FE8F37C25B08 /* Frameworks */,
 				975DF58C0A0C0F09EF099FED /* Embed Frameworks */,
 				536F6A3F22413B6E59A951D6 /* SwiftLint */,
-				877C14ADDA2CEC07DFC04332 /* [CP] Embed Pods Frameworks */,
+				5B8133117A20133AE49736F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -458,9 +530,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64F3F6EDF5DAC48221B4703E /* Build configuration list for PBXNativeTarget "LionRenderer_iOS" */;
 			buildPhases = (
-				B1CF2A770A2631B8F425DAD6 /* [CP] Check Pods Manifest.lock */,
+				BE9930ABA90BEF746E331FB2 /* [CP] Check Pods Manifest.lock */,
+				6CD5FA2B27DF8C43C6336658 /* Headers */,
 				86352889343B9852F35E3C5A /* Sources */,
-				E9505CE577A76190E4E878EA /* Frameworks */,
+				CCFEBD39D93273D7365D9600 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -475,9 +548,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6FFFBB69D912476B05D3F9C /* Build configuration list for PBXNativeTarget "LionRenderer_macOS" */;
 			buildPhases = (
-				2B5712C377372DD7AB785035 /* [CP] Check Pods Manifest.lock */,
+				7438D338606B050B36586197 /* [CP] Check Pods Manifest.lock */,
+				D45164836F6ADAA0006AC18C /* Headers */,
 				B0480396D3DAF3C77008B110 /* Sources */,
-				1359E5E8F57782AE83950B15 /* Frameworks */,
+				66CA693E0ABD741E1325329B /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -500,10 +574,10 @@
 					0F2FF90B1852B9BB5A6F72C7 = {
 						ProvisioningStyle = Manual;
 					};
-					23FAA9769155332F24EDD87C = {
+					1BC64D76F1EC0A0CB6E9952B = {
 						ProvisioningStyle = Manual;
 					};
-					3447122310415A097A72D8BA = {
+					23FAA9769155332F24EDD87C = {
 						ProvisioningStyle = Manual;
 					};
 					381B033A499A6F021EF5D627 = {
@@ -532,8 +606,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				1BC64D76F1EC0A0CB6E9952B /* Example */,
 				4AFDADECD05E218BFFBD169C /* ExampleIOS */,
-				3447122310415A097A72D8BA /* ExampleOSX */,
 				381B033A499A6F021EF5D627 /* LionRendererTests */,
 				5EB6189432B3DC8998CE2E82 /* LionRenderer_iOS */,
 				98EFCE5254323C5DA04A1C3B /* LionRenderer_macOS */,
@@ -544,188 +618,29 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		19DEE6D97984DDA8D6BDEA1A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D65405B1D2067FCEDAA79A3 /* Assets.xcassets in Resources */,
-				1A2F907F3D3990762734C7D1 /* Main.storyboard in Resources */,
-				4246C42C23C08BDE6516B92B /* Preview Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		26F8F6889B6C9EA099B707FB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5A19A77DECE27300B5152B29 /* Assets.xcassets in Resources */,
 				22FA9508DE3512A004BA8B36 /* LaunchScreen.storyboard in Resources */,
-				4B43CB4D7B3FFBED5241644D /* Preview Assets.xcassets in Resources */,
+				199E660A96B32AEEC56F6337 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9C3F5E959EC7D8F791D204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9096166A32FA5455524DCC /* Assets.xcassets in Resources */,
+				5F5FF891BBC07ABF35869F71 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1FE0CA3F120F4285587BA367 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LionRenderer_tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2B5712C377372DD7AB785035 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LionRenderer_macOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		536F6A3F22413B6E59A951D6 /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
-		};
-		54F503D161EB5741723085C9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ExampleOSX-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		725B1516BEFCCD59504B1658 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ExampleOSX/Pods-ExampleOSX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ExampleOSX/Pods-ExampleOSX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExampleOSX/Pods-ExampleOSX-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		871354BCBCC36DAF3D7BB925 /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
-		};
-		877C14ADDA2CEC07DFC04332 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ExampleIOS/Pods-ExampleIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ExampleIOS/Pods-ExampleIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExampleIOS/Pods-ExampleIOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8A559792E8E7CD53F266CF5B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ExampleIOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A9AA98E8E435F2964562897E /* [CP] Check Pods Manifest.lock */ = {
+		01FE711480558C594B707B0D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -747,7 +662,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B1CF2A770A2631B8F425DAD6 /* [CP] Check Pods Manifest.lock */ = {
+		1AAD9FF352D778F9822278AA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -762,14 +677,128 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LionRenderer_iOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LionRenderer_tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C1CE689D7492C14CFF74B360 /* [CP] Check Pods Manifest.lock */ = {
+		1EF28FBC02D9C53B036EAD66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		390B8B8267FDBE0FDB98F6A5 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		536F6A3F22413B6E59A951D6 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		5B8133117A20133AE49736F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleIOS/Pods-ExampleIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleIOS/Pods-ExampleIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExampleIOS/Pods-ExampleIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7438D338606B050B36586197 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LionRenderer_macOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		854BDA2167021D8D765254A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92F52C4D2233ED0FB909E8DD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -791,6 +820,50 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9939EF31FF57171940AE7298 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExampleIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE9930ABA90BEF746E331FB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LionRenderer_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -799,8 +872,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD14499E31D5647B4CAD6A3F /* AppDelegate.swift in Sources */,
-				A450FB1A9023A8CBD2568ABC /* ContentView.swift in Sources */,
+				9E64BD224472F207E52CC4C9 /* Game.swift in Sources */,
+				511D6BA895693C4D2C4375AB /* MetalRenderer.swift in Sources */,
 				93423C6A407EB03551B54C5F /* SceneDelegate.swift in Sources */,
+				B198EF6074957C0799779A58 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -808,7 +883,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				795B4845D62776EC6E171E0E /* PRenderer.swift in Sources */,
+				3A40EC2A51DF63E1707A028E /* ConsoleRenderer.swift in Sources */,
+				D1AAC7D932299E86C87F707D /* PRenderer.swift in Sources */,
+				82CEF31C432B9CF2B1F943E3 /* RenderComponent.swift in Sources */,
+				A0D2BEBCECFF661C56746020 /* RenderSystem.swift in Sources */,
+				AC7456593F83260E399C056F /* WorldPositionComponent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920EEE7A7C0E44D818A21F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AF890635C181C4F6C27C98 /* AppDelegate.swift in Sources */,
+				87A0CBF00F5613650C7B7753 /* Game.swift in Sources */,
+				DFB1F3FCA9CEB1E887F22B74 /* MetalRenderer.swift in Sources */,
+				A1ECBD0D1965BAD005D125EC /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -823,7 +913,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77251BDBD423694D3FF53BCA /* PRenderer.swift in Sources */,
+				66E537AEE3654360A21C1F8F /* ConsoleRenderer.swift in Sources */,
+				FEE8FF9E1B225F8614DEB4B3 /* PRenderer.swift in Sources */,
+				58087D3B116100823E55B6AD /* RenderComponent.swift in Sources */,
+				8A2DDF984184F01BE7247CA7 /* RenderSystem.swift in Sources */,
+				AD13B363FA9B68F8D4FC8C1F /* WorldPositionComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -831,7 +925,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6DFEEC62AA9506E30751AA4 /* PRenderer.swift in Sources */,
+				12B8AEF021A00BB6E631E868 /* ConsoleRenderer.swift in Sources */,
+				5CA6C96E1DA90C12D600BD4B /* PRenderer.swift in Sources */,
+				769B88FB1C402C9DFC260EF0 /* RenderComponent.swift in Sources */,
+				366F95615212AC8EB39823CE /* RenderSystem.swift in Sources */,
+				6403D9A90B13CCFF1B289FD4 /* WorldPositionComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -839,16 +937,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3143C3D078BC30DC859F6D2 /* PRenderer.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D97B6888BB4B4E93844241D1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				53A55BE50478190F978833CB /* AppDelegate.swift in Sources */,
-				0CD490768664BF2C697781B6 /* ContentView.swift in Sources */,
+				A2690639B08831C276577CB2 /* ConsoleRenderer.swift in Sources */,
+				211A211B474AC746C4427C06 /* PRenderer.swift in Sources */,
+				5275A7E30BED62C2D9B39DB4 /* RenderComponent.swift in Sources */,
+				FA8898CA722307C1B94750F1 /* RenderSystem.swift in Sources */,
+				C2627B6FC5DF9DFA860EC7F1 /* WorldPositionComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -865,10 +958,10 @@
 			target = 98EFCE5254323C5DA04A1C3B /* LionRenderer_macOS */;
 			targetProxy = 53F45361A00906F0FF5CD64B /* PBXContainerItemProxy */;
 		};
-		F94924C6A9251B66CC45B6DA /* PBXTargetDependency */ = {
+		ED5AFEF044EBE7D99E71491B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 98EFCE5254323C5DA04A1C3B /* LionRenderer_macOS */;
-			targetProxy = 8F5C12D9A95873607E83FF7E /* PBXContainerItemProxy */;
+			targetProxy = BD8E38AD9C25D39458CCE1A0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -881,10 +974,18 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		A5A211F8D560992DBC548703 /* Main.storyboard */ = {
+		BE7FADED0AB7A7D460715A19 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				323F2C47777158648ED2A571 /* Base */,
+				8A7A0525E503BAD63614199F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C51D9FEFF801DCADDE002ABF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AD95F1B533206870C3F9530 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -894,7 +995,7 @@
 /* Begin XCBuildConfiguration section */
 		023EA6C1C05C247D4C0EE6CC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E16DD81164888FE1D51868C /* Pods-LionRendererTests.release.xcconfig */;
+			baseConfigurationReference = C828F01A7A6A4E27C08A1123 /* Pods-LionRendererTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -911,7 +1012,7 @@
 		};
 		03338B582C46CDF62E2963F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15A7F4C56F21B1DC0647F3A4 /* Pods-LionRenderer_macOS.debug.xcconfig */;
+			baseConfigurationReference = D15D55F45B726CF7152EF68C /* Pods-LionRenderer_macOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -936,7 +1037,7 @@
 		};
 		0B7B496857D21259782ACB64 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28CB823F5A42F93094C17F25 /* Pods-ExampleIOS.debug.xcconfig */;
+			baseConfigurationReference = DC99E798AF4CC463E313905B /* Pods-ExampleIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -955,7 +1056,7 @@
 		};
 		11952865C86DE4C593569F50 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96B42481A39A2A3CC97378E6 /* Pods-LionRenderer_tvOS.release.xcconfig */;
+			baseConfigurationReference = 4399A4D1F90B203A7457B8F1 /* Pods-LionRenderer_tvOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1028,6 +1129,24 @@
 			};
 			name = Release;
 		};
+		44BBFB5585ECAEE1EB7B64CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79AF26C1C37B53AB0FDA97FA /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.lionsoftware.lionengine.renderer.example;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		6EC5EAF522BC659BDBCAAA1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E0DA4E9B683D69C0B59A3175 /* Debug.xcconfig */;
@@ -1087,7 +1206,7 @@
 		};
 		79BC0931D2C276F186321F92 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C0514041EFC0F4CC4D987E4 /* Pods-ExampleIOS.release.xcconfig */;
+			baseConfigurationReference = 42FDDACD19E79E6309B56F6A /* Pods-ExampleIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1106,7 +1225,7 @@
 		};
 		7C701976A0D74AAC70B50C09 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6619A0922054C1B54AC39590 /* Pods-LionRenderer_iOS.release.xcconfig */;
+			baseConfigurationReference = 961F8A7455B6379F01A605BB /* Pods-LionRenderer_iOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1131,7 +1250,7 @@
 		};
 		81066C895DEBAE4DF42E37A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D587126E3FA68309CDD6E8A2 /* Pods-LionRenderer_iOS.debug.xcconfig */;
+			baseConfigurationReference = 3A6CB44FFFAF77F9C9525A50 /* Pods-LionRenderer_iOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1154,14 +1273,14 @@
 			};
 			name = Debug;
 		};
-		962E3F3D22F8085283034958 /* Debug */ = {
+		838CC4105335FB4DE2D33A23 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFA3DA794456A33A6AE294AA /* Pods-ExampleOSX.debug.xcconfig */;
+			baseConfigurationReference = C6E69EC574F30DE2A879584E /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = ExampleOSX/Info.plist;
+				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -1174,7 +1293,7 @@
 		};
 		A77BD0DBF8F55B5BC99EA116 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A95CF81D3566EA179FC1CF12 /* Pods-LionRenderer_tvOS.debug.xcconfig */;
+			baseConfigurationReference = 834892F3BD2AFD89C66D5A97 /* Pods-LionRenderer_tvOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1199,7 +1318,7 @@
 		};
 		A7EAD325FC875BF747193842 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35FB874B0BFBC91A4FB56C97 /* Pods-LionRenderer_watchOS.release.xcconfig */;
+			baseConfigurationReference = 56DE315D728BF832966F943D /* Pods-LionRenderer_watchOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1220,7 +1339,7 @@
 		};
 		D15D09C0C97534CD28A8842E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3A099B220FC7ED4EB81D7A9 /* Pods-LionRenderer_watchOS.debug.xcconfig */;
+			baseConfigurationReference = 51A7CC54FC55C3F248F48A0F /* Pods-LionRenderer_watchOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1241,7 +1360,7 @@
 		};
 		E5EE60A6BA13AFAED863344E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4E0CDA6F87E958279B69019 /* Pods-LionRenderer_macOS.release.xcconfig */;
+			baseConfigurationReference = FC7076D2C96E55AE44D7E0FA /* Pods-LionRenderer_macOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1266,7 +1385,7 @@
 		};
 		F89705E924CE5304191A9713 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1286CD7B4D999FE70D650429 /* Pods-LionRendererTests.debug.xcconfig */;
+			baseConfigurationReference = A34ACDECE595B50CFDA05F8E /* Pods-LionRendererTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1281,24 +1400,6 @@
 			};
 			name = Debug;
 		};
-		FDB758550F00E0FB5CFD9B0B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 503B17A0F84939CE3BBCB0F4 /* Pods-ExampleOSX.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = ExampleOSX/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.lionsoftware.lionengine.renderer.example;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1311,20 +1412,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
+		2F8F1B1B5926A8A11B34666A /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838CC4105335FB4DE2D33A23 /* Debug */,
+				44BBFB5585ECAEE1EB7B64CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
 		3820290C8C4A982AC846DF40 /* Build configuration list for PBXNativeTarget "LionRenderer_watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D15D09C0C97534CD28A8842E /* Debug */,
 				A7EAD325FC875BF747193842 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "";
-		};
-		5C4BDC20E2D5BDE4D39BE1CF /* Build configuration list for PBXNativeTarget "ExampleOSX" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				962E3F3D22F8085283034958 /* Debug */,
-				FDB758550F00E0FB5CFD9B0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "";

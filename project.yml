@@ -30,7 +30,6 @@ schemes:
     test:
       config: Debug
       targets: [LionRendererTests]
-      gatherCoverageData: true
     profile:
       config: Release
     analyze:
@@ -60,7 +59,7 @@ targets:
       - path: LionRendererTests
     dependencies:
       - target: LionRenderer_macOS
-  ExampleOSX:
+  Example:
     type: application
     platform: macOS
     settings:
@@ -70,7 +69,7 @@ targets:
         PROVISIONING_PROFILE_SPECIFIER:
         CURRENT_PROJECT_VERSION: 1
     sources:
-      - path: ExampleOSX
+      - path: Example
       - path: ExampleCommon
     dependencies:
       - target: LionRenderer_macOS

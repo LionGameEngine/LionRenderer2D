@@ -4,7 +4,7 @@ project 'LionRenderer.xcodeproj'
  
 use_frameworks!
 
-target 'ExampleOSX' do
+target 'Example' do
   platform :macos, '10.15'
   pod 'SwiftLint'
   pod 'LionECS', :git => 'git@github.com:lewandowskit93/LionECS.git', :branch => 'develop'
