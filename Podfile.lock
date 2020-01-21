@@ -1,0 +1,29 @@
+PODS:
+  - LionECS (0.0.1)
+  - SwiftLint (0.38.0)
+
+DEPENDENCIES:
+  - "LionECS (from `git@github.com:lewandowskit93/LionECS.git`, branch `develop`)"
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  LionECS:
+    :branch: develop
+    :git: "git@github.com:lewandowskit93/LionECS.git"
+
+CHECKOUT OPTIONS:
+  LionECS:
+    :commit: 0a1cbfe701654b3dda7f4b9e76b59e4a0aabb329
+    :git: "git@github.com:lewandowskit93/LionECS.git"
+
+SPEC CHECKSUMS:
+  LionECS: d797f66d8c66bf4d87250ba0fbf38e4d06d028b0
+  SwiftLint: 4105f061f9812b214568b736dab580ab2c73a582
+
+PODFILE CHECKSUM: 010176a57daed9bfab38d211b00f723de6251104
+
+COCOAPODS: 1.8.4

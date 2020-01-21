@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LionECS",
+        "repositoryURL": "https://github.com/lewandowskit93/LionECS.git",
+        "state": {
+          "branch": "develop",
+          "revision": "0a1cbfe701654b3dda7f4b9e76b59e4a0aabb329",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

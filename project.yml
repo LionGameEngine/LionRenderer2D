@@ -1,0 +1,98 @@
+name: LionRenderer
+attributes:
+  ORGANIZATIONNAME: Lion Software Tomasz Lewandowski
+options:
+  createIntermediateGroups: true
+  xcodeVersion: 11.3
+  groupSortPosition: top
+  deploymentTarget:
+    iOS: "13.0"
+    macOS: "10.15"
+configs:
+  Debug: debug
+  Release: release
+fileGroups:
+  - Configurations
+  - Package.swift
+configFiles:
+  Debug: Configurations/Debug.xcconfig
+  Release: Configurations/Release.xcconfig
+schemes:
+  LionRenderer:
+    build:
+      targets:
+        LionRenderer_iOS: all
+        LionRenderer_tvOS: all
+        LionRenderer_watchOS: all
+        LionRenderer_macOS: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets: [LionRendererTests]
+      gatherCoverageData: true
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
+
+targets:
+  LionRenderer:
+    type: framework
+    platform: [macOS, iOS, tvOS, watchOS]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(RENDERER_BUNDLE_IDENTIFIER)
+        PROVISIONING_PROFILE_SPECIFIER: $(RENDERER_PROVISIONING_PROFILE_SPECIFIER)
+    sources:
+      - path: LionRenderer
+  LionRendererTests:
+    type: bundle.unit-test
+    platform: macOS
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.lionsoftware.lionengine.renderer.tests
+        # empty specifier resolves to "Automatic"
+        PROVISIONING_PROFILE_SPECIFIER: 
+    sources:
+      - path: LionRendererTests
+    dependencies:
+      - target: LionRenderer_macOS
+  ExampleOSX:
+    type: application
+    platform: macOS
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.lionsoftware.lionengine.renderer.example
+        # empty specifier resolves to "Automatic"
+        PROVISIONING_PROFILE_SPECIFIER:
+        CURRENT_PROJECT_VERSION: 1
+    sources:
+      - path: ExampleOSX
+      - path: ExampleCommon
+    dependencies:
+      - target: LionRenderer_macOS
+    postBuildScripts:
+      - script: |
+                "${PODS_ROOT}/SwiftLint/swiftlint"
+        name: SwiftLint
+  ExampleIOS:
+    type: application
+    platform: iOS
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.lionsoftware.lionengine.renderer.example
+        # empty specifier resolves to "Automatic"
+        PROVISIONING_PROFILE_SPECIFIER:
+        CURRENT_PROJECT_VERSION: 1
+    sources:
+      - path: ExampleIOS
+      - path: ExampleCommon
+    dependencies:
+      - target: LionRenderer_iOS
+    postBuildScripts:
+      - script: |
+                "${PODS_ROOT}/SwiftLint/swiftlint"
+        name: SwiftLint
