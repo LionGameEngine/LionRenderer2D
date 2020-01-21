@@ -6,6 +6,6 @@
 //  Copyright © 2020 Lion Software Tomasz Lewandowski. All rights reserved.
 //
 
-protocol PRenderer {
+public protocol PRenderer {
     
 }
