@@ -12,6 +12,6 @@ public final class ConsoleRenderer: PRenderer {
     }
     
     public func render(renderable: RenderComponent, atPosition: WorldPositionComponent) {
-        print("\(renderable.data) at (\(atPosition.x),\(atPosition.y),\(atPosition.z))")
+        print("\(renderable.data) at (\(atPosition.x),\(atPosition.y))")
     }
 }
