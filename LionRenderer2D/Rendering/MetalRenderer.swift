@@ -12,6 +12,7 @@ import UIKit
 import Cocoa
 #endif
 
+#if os(iOS) || os(OSX) || os(tvOS)
 import Metal
 import MetalKit
 import LionRenderer2D
@@ -65,3 +66,4 @@ public final class MetalRenderer: NSObject, PRenderer, MTKViewDelegate {
         commandBuffer.commit() // 10
     }
 }
+#endif
