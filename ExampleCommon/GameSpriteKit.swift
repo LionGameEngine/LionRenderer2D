@@ -18,15 +18,15 @@ public class GameSpriteKit<ComponentManager: PComponentManager> {
     init(scene: SKScene) {
         world = .init(componentManager: ComponentManager())
         renderSystem = world.getOrCreateSystem()
-        let _: UpdatePositionSystem<ComponentManager> = world.getOrCreateSystem()
+        let _: UpdateTransformSystem<ComponentManager> = world.getOrCreateSystem()
         renderer = SpriteKitRenderer(scene: scene)
         renderSystem.setup(renderer: renderer)
         let entity = world.entityManager.createEntity()
         try! world.componentManager.addComponent(WorldPositionComponent(x: 110, y: 12), toEntity: entity)
+        try! world.componentManager.addComponent(WorldRotationComponent(rotation: 0), toEntity: entity)
         try! world.componentManager.addComponent(RenderComponent(resourceId: 10), toEntity: entity)
         let node = SKSpriteNode(color: .red, size: CGSize(width: 10, height: 10))
         renderSystem.assign(resource: node, to: RenderComponent(resourceId: 10))
-        scene.addChild(node)
         gameLoop()
     }
     

@@ -56,7 +56,11 @@
 		F1D3D06B24745A3C0029455E /* SpriteKitRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D06724745A3C0029455E /* SpriteKitRenderer.swift */; };
 		F1D3D07124745BB10029455E /* GameSpriteKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D06C24745B650029455E /* GameSpriteKit.swift */; };
 		F1D3D07324745F0E0029455E /* SpriteKitGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D07224745F0E0029455E /* SpriteKitGameViewController.swift */; };
-		F1D3D079247468E70029455E /* UpdatePositionSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D078247468E70029455E /* UpdatePositionSystem.swift */; };
+		F1D3D079247468E70029455E /* UpdateTransformSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D078247468E70029455E /* UpdateTransformSystem.swift */; };
+		F1D3D07C24746D5E0029455E /* WorldRotationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D07A24746D280029455E /* WorldRotationComponent.swift */; };
+		F1D3D07D24746D5F0029455E /* WorldRotationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D07A24746D280029455E /* WorldRotationComponent.swift */; };
+		F1D3D07E24746D600029455E /* WorldRotationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D07A24746D280029455E /* WorldRotationComponent.swift */; };
+		F1D3D07F24746D600029455E /* WorldRotationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D07A24746D280029455E /* WorldRotationComponent.swift */; };
 		F9A594444392BD2BCEAECE31 /* Pods_LionRenderer2D_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4959D29B5CAE6D8A746DE0AF /* Pods_LionRenderer2D_tvOS.framework */; };
 		FAF8916EE6171ECC45C8E39F /* Pods_LionRenderer2D_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5399E60608BF8C04FE5D14 /* Pods_LionRenderer2D_macOS.framework */; };
 		FD3180E2375DC61F98FFFB3C /* LionRenderer2D.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 557E0850B89D47138ED26AF7 /* LionRenderer2D.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -149,7 +153,8 @@
 		F1D3D06724745A3C0029455E /* SpriteKitRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitRenderer.swift; sourceTree = "<group>"; };
 		F1D3D06C24745B650029455E /* GameSpriteKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSpriteKit.swift; sourceTree = "<group>"; };
 		F1D3D07224745F0E0029455E /* SpriteKitGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitGameViewController.swift; sourceTree = "<group>"; };
-		F1D3D078247468E70029455E /* UpdatePositionSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePositionSystem.swift; sourceTree = "<group>"; };
+		F1D3D078247468E70029455E /* UpdateTransformSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTransformSystem.swift; sourceTree = "<group>"; };
+		F1D3D07A24746D280029455E /* WorldRotationComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldRotationComponent.swift; sourceTree = "<group>"; };
 		F4D565A4AE4CA53BBD5871C7 /* Pods_LionRenderer2D_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionRenderer2D_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F625596807B55254F8384C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F688F06D2666F08A379FE0D4 /* Pods-LionRenderer2D_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer2D_tvOS.debug.xcconfig"; path = "Target Support Files/Pods-LionRenderer2D_tvOS/Pods-LionRenderer2D_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -286,7 +291,7 @@
 			children = (
 				80E01C34F70C85D031A75466 /* GameMetal.swift */,
 				F1D3D06C24745B650029455E /* GameSpriteKit.swift */,
-				F1D3D078247468E70029455E /* UpdatePositionSystem.swift */,
+				F1D3D078247468E70029455E /* UpdateTransformSystem.swift */,
 			);
 			path = ExampleCommon;
 			sourceTree = "<group>";
@@ -314,6 +319,7 @@
 			children = (
 				3CA3149BAA0D0853D862383F /* WorldPositionComponent.swift */,
 				F1D3D05E247457E30029455E /* LayerComponent.swift */,
+				F1D3D07A24746D280029455E /* WorldRotationComponent.swift */,
 			);
 			path = Transforms;
 			sourceTree = "<group>";
@@ -763,6 +769,7 @@
 				6B3EE03FB5251B098CDF07B7 /* PRenderer.swift in Sources */,
 				F1D3D065247459AC0029455E /* MetalRenderer.swift in Sources */,
 				A5388D314352291C8515835E /* RenderComponent.swift in Sources */,
+				F1D3D07D24746D5F0029455E /* WorldRotationComponent.swift in Sources */,
 				25ACF7BA70009F33ED4AD47E /* RenderSystem.swift in Sources */,
 				536EC6280C0C376FDD9493D4 /* WorldPositionComponent.swift in Sources */,
 				F1D3D061247457E30029455E /* LayerComponent.swift in Sources */,
@@ -778,6 +785,7 @@
 				2BDD978043D61F32469D9AE3 /* PRenderer.swift in Sources */,
 				F1D3D063247459AB0029455E /* MetalRenderer.swift in Sources */,
 				0FDB024BB700ADA97ABA6EC1 /* RenderComponent.swift in Sources */,
+				F1D3D07F24746D600029455E /* WorldRotationComponent.swift in Sources */,
 				9555892A8BCFD728E86E36BB /* RenderSystem.swift in Sources */,
 				20CD925E8C1A15C57C1916EE /* WorldPositionComponent.swift in Sources */,
 				F1D3D05F247457E30029455E /* LayerComponent.swift in Sources */,
@@ -793,6 +801,7 @@
 				FFE597AD7B5D26557D15E331 /* PRenderer.swift in Sources */,
 				F1D3D066247459AC0029455E /* MetalRenderer.swift in Sources */,
 				B4104E5DC195955BB46273B1 /* RenderComponent.swift in Sources */,
+				F1D3D07C24746D5E0029455E /* WorldRotationComponent.swift in Sources */,
 				9CF182229A329EEE39316EC9 /* RenderSystem.swift in Sources */,
 				3820B6B27BD892FE0AB8B98C /* WorldPositionComponent.swift in Sources */,
 				F1D3D062247457E30029455E /* LayerComponent.swift in Sources */,
@@ -815,6 +824,7 @@
 				8ADC3B55874A352FDD2E3E07 /* PRenderer.swift in Sources */,
 				F1D3D064247459AB0029455E /* MetalRenderer.swift in Sources */,
 				9B42AE62CF9CEB81FABF2067 /* RenderComponent.swift in Sources */,
+				F1D3D07E24746D600029455E /* WorldRotationComponent.swift in Sources */,
 				CD9E9041DB716316051A890A /* RenderSystem.swift in Sources */,
 				1F40000B65B17DE20B5994A6 /* WorldPositionComponent.swift in Sources */,
 				F1D3D060247457E30029455E /* LayerComponent.swift in Sources */,
@@ -829,7 +839,7 @@
 				25D51EB107F08413E96793C0 /* GameMetal.swift in Sources */,
 				18ED6701BB187E51C3424860 /* MetalGameViewController.swift in Sources */,
 				F1D3D07324745F0E0029455E /* SpriteKitGameViewController.swift in Sources */,
-				F1D3D079247468E70029455E /* UpdatePositionSystem.swift in Sources */,
+				F1D3D079247468E70029455E /* UpdateTransformSystem.swift in Sources */,
 				F1D3D07124745BB10029455E /* GameSpriteKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

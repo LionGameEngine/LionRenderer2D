@@ -16,10 +16,13 @@ public final class RenderSystem<ComponentManager: PComponentManager, Renderer: P
     }
     
     override public func update() {
-        let query = EntityQuery<ComponentManager>(filters: [Requires<WorldPositionComponent>(), Requires<RenderComponent>()])
+        let query = EntityQuery<ComponentManager>(filters: [
+            Requires<WorldPositionComponent>(),
+            Requires<RenderComponent>(),
+            Requires<WorldRotationComponent>()])
         let result = try! entityRequester.queryEntities(query: query)
-        result.forEach { (renderable: RenderComponent, position: WorldPositionComponent) in
-            renderer.render(renderable: renderable, atPosition: position)
+        result.forEach { (renderable: RenderComponent, position: WorldPositionComponent, rotation: WorldRotationComponent) in
+            renderer.render(renderable: renderable, atPosition: position, withRotation: rotation)
         }
     }
     

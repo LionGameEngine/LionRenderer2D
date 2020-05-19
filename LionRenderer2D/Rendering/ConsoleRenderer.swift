@@ -11,7 +11,7 @@ public final class ConsoleRenderer<Resource>: PRenderer {
         
     }
     
-    public func render(renderable: RenderComponent, atPosition: WorldPositionComponent) {
+    public func render(renderable: RenderComponent, atPosition: WorldPositionComponent, withRotation: WorldRotationComponent) {
         print("\(renderable.resourceId) at (\(atPosition.x),\(atPosition.y))")
     }
     

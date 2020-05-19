@@ -30,7 +30,7 @@ public final class MetalRenderer: NSObject, PRenderer, MTKViewDelegate {
         view.delegate = self
     }
         
-    public func render(renderable: RenderComponent, atPosition: WorldPositionComponent) {
+    public func render(renderable: RenderComponent, atPosition: WorldPositionComponent, withRotation: WorldRotationComponent) {
     }
     
     public func mtkView(_ view: MTKView, drawableSizeWillChange size: CGSize) {

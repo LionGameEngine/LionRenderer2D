@@ -8,6 +8,6 @@
 
 public protocol PRenderer {
     associatedtype ResourceDescriptor
-    func render(renderable: RenderComponent, atPosition: WorldPositionComponent)
+    func render(renderable: RenderComponent, atPosition: WorldPositionComponent, withRotation: WorldRotationComponent)
     func assign(resource: ResourceDescriptor, to: RenderComponent)
 }

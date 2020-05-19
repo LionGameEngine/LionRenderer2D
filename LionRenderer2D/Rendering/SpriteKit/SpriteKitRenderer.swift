@@ -19,12 +19,14 @@ public final class SpriteKitRenderer: NSObject, PRenderer, SKSceneDelegate {
         self.scene = scene
     }
     
-    public func render(renderable: RenderComponent, atPosition: WorldPositionComponent) {
+    public func render(renderable: RenderComponent, atPosition: WorldPositionComponent, withRotation: WorldRotationComponent) {
         nodes[renderable.resourceId]?.position = CGPoint(x: CGFloat(atPosition.x), y: CGFloat(atPosition.y))
+        nodes[renderable.resourceId]?.zRotation = CGFloat(withRotation.rotation)
     }
     
     public func assign(resource: SKNode, to: RenderComponent) {
         nodes[to.resourceId] = resource
+        scene.addChild(resource)
     }
 }
 
