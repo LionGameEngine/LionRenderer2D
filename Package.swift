@@ -10,23 +10,23 @@
 import PackageDescription
 
 let package = Package(
-    name: "LionRenderer",
+    name: "LionRenderer2D",
     products: [
         .library(
-            name: "LionRenderer",
-            targets: ["LionRenderer"])
+            name: "LionRenderer2D",
+            targets: ["LionRenderer2D"])
     ],
     dependencies: [
-        .package(url: "https://github.com/lewandowskit93/LionECS.git", .branch("develop"))
+        .package(url: "https://github.com/LionGameEngine/LionECS.git")
     ],
     targets: [
         .target(
-            name: "LionRenderer",
+            name: "LionRenderer2D",
             dependencies: ["LionECS"],
-            path: "LionRenderer"),
+            path: "LionRenderer2D"),
         .testTarget(
-            name: "LionRendererTests",
-            dependencies: ["LionECS", "LionRenderer"],
-            path: "LionRendererTests")
+            name: "LionRenderer2DTests",
+            dependencies: ["LionECS", "LionRenderer2D"],
+            path: "LionRenderer2DTests")
     ]
 )
