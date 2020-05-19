@@ -56,6 +56,7 @@
 		F1D3D06B24745A3C0029455E /* SpriteKitRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D06724745A3C0029455E /* SpriteKitRenderer.swift */; };
 		F1D3D07124745BB10029455E /* GameSpriteKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D06C24745B650029455E /* GameSpriteKit.swift */; };
 		F1D3D07324745F0E0029455E /* SpriteKitGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D07224745F0E0029455E /* SpriteKitGameViewController.swift */; };
+		F1D3D079247468E70029455E /* UpdatePositionSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D078247468E70029455E /* UpdatePositionSystem.swift */; };
 		F9A594444392BD2BCEAECE31 /* Pods_LionRenderer2D_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4959D29B5CAE6D8A746DE0AF /* Pods_LionRenderer2D_tvOS.framework */; };
 		FAF8916EE6171ECC45C8E39F /* Pods_LionRenderer2D_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5399E60608BF8C04FE5D14 /* Pods_LionRenderer2D_macOS.framework */; };
 		FD3180E2375DC61F98FFFB3C /* LionRenderer2D.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 557E0850B89D47138ED26AF7 /* LionRenderer2D.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -148,6 +149,7 @@
 		F1D3D06724745A3C0029455E /* SpriteKitRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitRenderer.swift; sourceTree = "<group>"; };
 		F1D3D06C24745B650029455E /* GameSpriteKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSpriteKit.swift; sourceTree = "<group>"; };
 		F1D3D07224745F0E0029455E /* SpriteKitGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitGameViewController.swift; sourceTree = "<group>"; };
+		F1D3D078247468E70029455E /* UpdatePositionSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePositionSystem.swift; sourceTree = "<group>"; };
 		F4D565A4AE4CA53BBD5871C7 /* Pods_LionRenderer2D_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionRenderer2D_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F625596807B55254F8384C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F688F06D2666F08A379FE0D4 /* Pods-LionRenderer2D_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer2D_tvOS.debug.xcconfig"; path = "Target Support Files/Pods-LionRenderer2D_tvOS/Pods-LionRenderer2D_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -284,6 +286,7 @@
 			children = (
 				80E01C34F70C85D031A75466 /* GameMetal.swift */,
 				F1D3D06C24745B650029455E /* GameSpriteKit.swift */,
+				F1D3D078247468E70029455E /* UpdatePositionSystem.swift */,
 			);
 			path = ExampleCommon;
 			sourceTree = "<group>";
@@ -826,6 +829,7 @@
 				25D51EB107F08413E96793C0 /* GameMetal.swift in Sources */,
 				18ED6701BB187E51C3424860 /* MetalGameViewController.swift in Sources */,
 				F1D3D07324745F0E0029455E /* SpriteKitGameViewController.swift in Sources */,
+				F1D3D079247468E70029455E /* UpdatePositionSystem.swift in Sources */,
 				F1D3D07124745BB10029455E /* GameSpriteKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

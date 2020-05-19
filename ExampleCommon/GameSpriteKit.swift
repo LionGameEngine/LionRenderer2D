@@ -18,6 +18,7 @@ public class GameSpriteKit<ComponentManager: PComponentManager> {
     init(scene: SKScene) {
         world = .init(componentManager: ComponentManager())
         renderSystem = world.getOrCreateSystem()
+        let _: UpdatePositionSystem<ComponentManager> = world.getOrCreateSystem()
         renderer = SpriteKitRenderer(scene: scene)
         renderSystem.setup(renderer: renderer)
         let entity = world.entityManager.createEntity()
