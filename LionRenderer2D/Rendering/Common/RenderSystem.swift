@@ -25,6 +25,10 @@ public final class RenderSystem<ComponentManager: PComponentManager, Renderer: P
         renderer.assign(resource: resource, to: to)
     }
     
+    public func resource(forComponent component: RenderComponent) -> Renderer.ResourceDescriptor {
+        return renderer.resource(forComponent: component)
+    }
+
     private func getLayers() -> [Int] {
         var layers: [Int] = []
         let query = EntityQuery<ComponentManager>(filters: [
@@ -47,6 +51,5 @@ public final class RenderSystem<ComponentManager: PComponentManager, Renderer: P
             guard layerComponent.layer == layer else { return }
             renderer.render(renderable: renderable, atPosition: position, withRotation: rotation)
         }
-
     }
 }

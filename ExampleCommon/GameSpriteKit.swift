@@ -24,7 +24,6 @@ public class GameSpriteKit<ComponentManager: PComponentManager> {
         renderSystem.setup(renderer: renderer)
         createEntity(withColor: .blue, atLayer: 3, andSize: 20, id: 1)
         createEntity(withColor: .red, atLayer: 1, andSize: 40, id: 2)
-        layerSystem.setup(renderer: renderer)
         gameLoop()
     }
     

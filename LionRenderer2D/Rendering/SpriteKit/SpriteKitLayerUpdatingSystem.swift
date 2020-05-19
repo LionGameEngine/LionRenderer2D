@@ -12,10 +12,12 @@ import LionECS
 import SpriteKit
 
 public final class SpriteKitLayerUpdatingSystem<ComponentManager: PComponentManager>: ComponentSystem<ComponentManager> {
-    private var renderer: SpriteKitRenderer!
     
-    public func setup(renderer: SpriteKitRenderer) {
-        self.renderer = renderer
+    private var renderSystem: RenderSystem<ComponentManager, SpriteKitRenderer>!
+    
+    public required init(world: World<ComponentManager>, entityManager: EntityManager<ComponentManager>, componentManager: ComponentManager, entityRequester: EntityRequester<ComponentManager>) {
+        super.init(world: world, entityManager: entityManager, componentManager: componentManager, entityRequester: entityRequester)
+        renderSystem = world.getExistingSystem()
     }
     
     override public func update() {
@@ -25,7 +27,7 @@ public final class SpriteKitLayerUpdatingSystem<ComponentManager: PComponentMana
         ])
         let result = try! entityRequester.queryEntities(query: query)
         result.forEach { [weak self] (layer: LayerComponent, render: RenderComponent) in
-            self?.renderer.resource(forComponent: render).zPosition = CGFloat(layer.layer)
+            self?.renderSystem?.resource(forComponent: render).zPosition = CGFloat(layer.layer)
         }
     }
 }
