@@ -14,7 +14,7 @@ import Cocoa
 
 import Metal
 import MetalKit
-import LionRenderer
+import LionRenderer2D
 
 public final class MetalRenderer: NSObject, PRenderer, MTKViewDelegate {
     private var view: MTKView

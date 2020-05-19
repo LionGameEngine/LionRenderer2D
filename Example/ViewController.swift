@@ -9,7 +9,7 @@
 import Cocoa
 import MetalKit
 import Metal
-import LionRenderer
+import LionRenderer2D
 import LionECS
 
 class ViewController: NSViewController {

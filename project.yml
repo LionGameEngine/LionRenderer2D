@@ -1,4 +1,4 @@
-name: LionRenderer
+name: LionRenderer2D
 attributes:
   ORGANIZATIONNAME: Lion Software Tomasz Lewandowski
 options:
@@ -18,18 +18,18 @@ configFiles:
   Debug: Configurations/Debug.xcconfig
   Release: Configurations/Release.xcconfig
 schemes:
-  LionRenderer:
+  LionRenderer2D:
     build:
       targets:
-        LionRenderer_iOS: all
-        LionRenderer_tvOS: all
-        LionRenderer_watchOS: all
-        LionRenderer_macOS: all
+        LionRenderer2D_iOS: all
+        LionRenderer2D_tvOS: all
+        LionRenderer2D_watchOS: all
+        LionRenderer2D_macOS: all
     run:
       config: Debug
     test:
       config: Debug
-      targets: [LionRendererTests]
+      targets: [LionRenderer2DTests]
     profile:
       config: Release
     analyze:
@@ -38,33 +38,33 @@ schemes:
       config: Release
 
 targets:
-  LionRenderer:
+  LionRenderer2D:
     type: framework
     platform: [macOS, iOS, tvOS, watchOS]
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: $(RENDERER_BUNDLE_IDENTIFIER)
-        PROVISIONING_PROFILE_SPECIFIER: $(RENDERER_PROVISIONING_PROFILE_SPECIFIER)
+        PRODUCT_BUNDLE_IDENTIFIER: $(RENDERER_2D_BUNDLE_IDENTIFIER)
+        PROVISIONING_PROFILE_SPECIFIER: $(RENDERER_2D_PROVISIONING_PROFILE_SPECIFIER)
     sources:
-      - path: LionRenderer
-  LionRendererTests:
+      - path: LionRenderer2D
+  LionRenderer2DTests:
     type: bundle.unit-test
     platform: macOS
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: org.lionsoftware.lionengine.renderer.tests
+        PRODUCT_BUNDLE_IDENTIFIER: org.lionsoftware.lionengine.2d.renderer.tests
         # empty specifier resolves to "Automatic"
         PROVISIONING_PROFILE_SPECIFIER: 
     sources:
-      - path: LionRendererTests
+      - path: LionRenderer2DTests
     dependencies:
-      - target: LionRenderer_macOS
+      - target: LionRenderer2D_macOS
   Example:
     type: application
     platform: macOS
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: org.lionsoftware.lionengine.renderer.example
+        PRODUCT_BUNDLE_IDENTIFIER: org.lionsoftware.lionengine.2d.renderer.example
         # empty specifier resolves to "Automatic"
         PROVISIONING_PROFILE_SPECIFIER:
         CURRENT_PROJECT_VERSION: 1
@@ -72,25 +72,7 @@ targets:
       - path: Example
       - path: ExampleCommon
     dependencies:
-      - target: LionRenderer_macOS
-    postBuildScripts:
-      - script: |
-                "${PODS_ROOT}/SwiftLint/swiftlint"
-        name: SwiftLint
-  ExampleIOS:
-    type: application
-    platform: iOS
-    settings:
-      base:
-        PRODUCT_BUNDLE_IDENTIFIER: org.lionsoftware.lionengine.renderer.example
-        # empty specifier resolves to "Automatic"
-        PROVISIONING_PROFILE_SPECIFIER:
-        CURRENT_PROJECT_VERSION: 1
-    sources:
-      - path: ExampleIOS
-      - path: ExampleCommon
-    dependencies:
-      - target: LionRenderer_iOS
+      - target: LionRenderer2D_macOS
     postBuildScripts:
       - script: |
                 "${PODS_ROOT}/SwiftLint/swiftlint"

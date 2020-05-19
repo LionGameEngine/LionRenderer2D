@@ -7,7 +7,7 @@
 //
 
 import LionECS
-import LionRenderer
+import LionRenderer2D
 import Metal
 import MetalKit
 
