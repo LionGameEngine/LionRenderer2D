@@ -1,0 +1,15 @@
+//
+//  Common.xcconfig
+//  LionEngine
+//
+//  Created by Tomasz Lewandowski on 02/01/2020.
+//  Copyright © 2020 Lion Software Tomasz Lewandowski. All rights reserved.
+//
+
+RENDERER_2D_BUNDLE_IDENTIFIER = org.lionsoftware.lionengine.2d.renderer
+RENDERER_2D_PROVISIONING_PROFILE_SPECIFIER =
+
+VERSIONING_SYSTEM = apple-generic
+PRODUCT_VERSION = 0.0.1
+SWIFT_VERSION = 5.0
+CODE_SIGN_STYLE = Manual
