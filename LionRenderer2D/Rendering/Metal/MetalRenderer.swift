@@ -17,6 +17,7 @@ import Metal
 import MetalKit
 
 public final class MetalRenderer: NSObject, PRenderer, MTKViewDelegate {
+    public typealias ResourceDescriptor = Void
     private var view: MTKView
     private var device: MTLDevice
     private var metalCommandQueue: MTLCommandQueue
@@ -64,5 +65,10 @@ public final class MetalRenderer: NSObject, PRenderer, MTKViewDelegate {
         commandBuffer.present(drawable) // 9
         commandBuffer.commit() // 10
     }
+    
+    public func assign(resource: ResourceDescriptor, to: RenderComponent) {
+        
+    }
+
 }
 #endif

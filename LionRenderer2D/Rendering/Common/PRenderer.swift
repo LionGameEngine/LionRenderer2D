@@ -7,5 +7,7 @@
 //
 
 public protocol PRenderer {
+    associatedtype ResourceDescriptor
     func render(renderable: RenderComponent, atPosition: WorldPositionComponent)
+    func assign(resource: ResourceDescriptor, to: RenderComponent)
 }

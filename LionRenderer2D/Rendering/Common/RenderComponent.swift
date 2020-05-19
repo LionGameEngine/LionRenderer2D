@@ -9,8 +9,8 @@
 import LionECS
 
 public struct RenderComponent: PComponent {
-    public var data: Int
-    public init(data: Int) {
-        self.data = data
+    public var resourceId: Int
+    public init(resourceId: Int) {
+        self.resourceId = resourceId
     }
 }

@@ -252,12 +252,10 @@
 		5C5D4C1E6FD8E8783DF2C04D /* Rendering */ = {
 			isa = PBXGroup;
 			children = (
+				F1D3D077247464870029455E /* SpriteKit */,
+				F1D3D0762474647D0029455E /* Metal */,
+				F1D3D075247464690029455E /* Common */,
 				D4E87BC462AB9EA460A2B98C /* ConsoleRenderer.swift */,
-				1834B3BEF6ABE2E1F03A5897 /* PRenderer.swift */,
-				8FAC7BAA7D9EAA5C021DB206 /* RenderComponent.swift */,
-				A9AEC149AB4D1718EB06E452 /* RenderSystem.swift */,
-				6B76C841EFEBE1449CA8A5E1 /* MetalRenderer.swift */,
-				F1D3D06724745A3C0029455E /* SpriteKitRenderer.swift */,
 			);
 			path = Rendering;
 			sourceTree = "<group>";
@@ -339,6 +337,32 @@
 				22A3B2B40BAE472A8A98FCB9 /* Release.xcconfig */,
 			);
 			path = Configurations;
+			sourceTree = "<group>";
+		};
+		F1D3D075247464690029455E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A9AEC149AB4D1718EB06E452 /* RenderSystem.swift */,
+				1834B3BEF6ABE2E1F03A5897 /* PRenderer.swift */,
+				8FAC7BAA7D9EAA5C021DB206 /* RenderComponent.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F1D3D0762474647D0029455E /* Metal */ = {
+			isa = PBXGroup;
+			children = (
+				6B76C841EFEBE1449CA8A5E1 /* MetalRenderer.swift */,
+			);
+			path = Metal;
+			sourceTree = "<group>";
+		};
+		F1D3D077247464870029455E /* SpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				F1D3D06724745A3C0029455E /* SpriteKitRenderer.swift */,
+			);
+			path = SpriteKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

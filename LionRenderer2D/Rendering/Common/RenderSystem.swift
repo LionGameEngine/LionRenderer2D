@@ -8,10 +8,10 @@
 
 import LionECS
 
-public final class RenderSystem<ComponentManager: PComponentManager>: ComponentSystem<ComponentManager> {
-    private var renderer: PRenderer!
+public final class RenderSystem<ComponentManager: PComponentManager, Renderer: PRenderer>: ComponentSystem<ComponentManager> {
+    private var renderer: Renderer!
     
-    public func setup(renderer: PRenderer) {
+    public func setup(renderer: Renderer) {
         self.renderer = renderer
     }
     
@@ -21,5 +21,9 @@ public final class RenderSystem<ComponentManager: PComponentManager>: ComponentS
         result.forEach { (renderable: RenderComponent, position: WorldPositionComponent) in
             renderer.render(renderable: renderable, atPosition: position)
         }
+    }
+    
+    public func assign(resource: Renderer.ResourceDescriptor, to: RenderComponent) {
+        renderer.assign(resource: resource, to: to)
     }
 }

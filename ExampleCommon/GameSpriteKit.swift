@@ -12,7 +12,7 @@ import SpriteKit
 
 public class GameSpriteKit<ComponentManager: PComponentManager> {
     let world: World<ComponentManager>
-    let renderSystem: RenderSystem<ComponentManager>
+    let renderSystem: RenderSystem<ComponentManager, SpriteKitRenderer>
     let renderer: SpriteKitRenderer
     
     init(scene: SKScene) {
@@ -21,8 +21,11 @@ public class GameSpriteKit<ComponentManager: PComponentManager> {
         renderer = SpriteKitRenderer(scene: scene)
         renderSystem.setup(renderer: renderer)
         let entity = world.entityManager.createEntity()
-        try! world.componentManager.addComponent(WorldPositionComponent(x: 11, y: 12), toEntity: entity)
-        try! world.componentManager.addComponent(RenderComponent(data: 10), toEntity: entity)
+        try! world.componentManager.addComponent(WorldPositionComponent(x: 110, y: 12), toEntity: entity)
+        try! world.componentManager.addComponent(RenderComponent(resourceId: 10), toEntity: entity)
+        let node = SKSpriteNode(color: .red, size: CGSize(width: 10, height: 10))
+        renderSystem.assign(resource: node, to: RenderComponent(resourceId: 10))
+        scene.addChild(node)
         gameLoop()
     }
     

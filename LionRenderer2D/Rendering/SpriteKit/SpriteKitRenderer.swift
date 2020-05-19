@@ -11,14 +11,20 @@
 import SpriteKit
 
 public final class SpriteKitRenderer: NSObject, PRenderer, SKSceneDelegate {
+    public typealias ResourceDescriptor = SKNode
     private let scene: SKScene
+    private var nodes: [Int: SKNode] = [:]
     
     public init(scene: SKScene) {
         self.scene = scene
     }
     
     public func render(renderable: RenderComponent, atPosition: WorldPositionComponent) {
-        print("Render sprite")
+        nodes[renderable.resourceId]?.position = CGPoint(x: CGFloat(atPosition.x), y: CGFloat(atPosition.y))
+    }
+    
+    public func assign(resource: SKNode, to: RenderComponent) {
+        nodes[to.resourceId] = resource
     }
 }
 
