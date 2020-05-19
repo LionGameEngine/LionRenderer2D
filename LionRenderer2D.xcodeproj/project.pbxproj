@@ -7,65 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FDB024BB700ADA97ABA6EC1 /* RenderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAC7BAA7D9EAA5C021DB206 /* RenderComponent.swift */; };
-		18ED6701BB187E51C3424860 /* MetalGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE995929370CCDF405C42B4B /* MetalGameViewController.swift */; };
+		087CE691B6C7BC94829F5A72 /* SpriteKitRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53F697DD59E79E8DF884AF /* SpriteKitRenderer.swift */; };
+		0A41B2D95599126DA7272C40 /* GameMetal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8193B9A44889AFC5385246 /* GameMetal.swift */; };
+		0F14DD301B3719D7DCBC6DEC /* UpdateTransformComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F270D2E7C285AE70626AD6 /* UpdateTransformComponent.swift */; };
+		0F2A79550A491E098C6B7CC5 /* SpriteKitLayerUpdatingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686379DADB0271FA8D8B8E0F /* SpriteKitLayerUpdatingSystem.swift */; };
+		18704504A78C8404602553CD /* SpriteKitGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2585A8B289FD92061AA01DB6 /* SpriteKitGameViewController.swift */; };
+		1B1D913B436E1CB1A004B466 /* WorldRotationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D53BB48767C81FDCC88761 /* WorldRotationComponent.swift */; };
+		1CF43F7B51F00399AA09AAF6 /* WorldRotationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D53BB48767C81FDCC88761 /* WorldRotationComponent.swift */; };
 		1F40000B65B17DE20B5994A6 /* WorldPositionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA3149BAA0D0853D862383F /* WorldPositionComponent.swift */; };
 		20CD925E8C1A15C57C1916EE /* WorldPositionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA3149BAA0D0853D862383F /* WorldPositionComponent.swift */; };
-		25ACF7BA70009F33ED4AD47E /* RenderSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AEC149AB4D1718EB06E452 /* RenderSystem.swift */; };
-		25D51EB107F08413E96793C0 /* GameMetal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E01C34F70C85D031A75466 /* GameMetal.swift */; };
+		25239BC03621411178A631F7 /* SpriteKitLayerUpdatingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686379DADB0271FA8D8B8E0F /* SpriteKitLayerUpdatingSystem.swift */; };
 		279E5BAAB3D359FE102A0F25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936B63C6256677AED1463385 /* AppDelegate.swift */; };
-		2BDD978043D61F32469D9AE3 /* PRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1834B3BEF6ABE2E1F03A5897 /* PRenderer.swift */; };
+		2F7F97947AD33144E100C7AC /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7895CF204861C3408E6A15D /* MetalRenderer.swift */; };
+		3246E2C30F5A99C90B3ABCEA /* Pods_LionRenderer2D_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 674C116EF8561D393152C4E5 /* Pods_LionRenderer2D_tvOS.framework */; };
+		347488CA691790ADCE9C8ECF /* RenderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB903BE8B1617F4CDD4BAE9 /* RenderComponent.swift */; };
 		3820B6B27BD892FE0AB8B98C /* WorldPositionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA3149BAA0D0853D862383F /* WorldPositionComponent.swift */; };
+		3F4E7BB4E88CCF9523047E50 /* Pods_LionRenderer2DTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8FEB527A46E7501A304793 /* Pods_LionRenderer2DTests.framework */; };
 		536EC6280C0C376FDD9493D4 /* WorldPositionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA3149BAA0D0853D862383F /* WorldPositionComponent.swift */; };
+		5378FC78D8FD16141F51CFEB /* LayerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC1D2A604358FD812C54012 /* LayerComponent.swift */; };
 		5FF8886B793A1C5A23803B12 /* LionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C9CDF07C537239FCE2DC3C7 /* LionRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B3EE03FB5251B098CDF07B7 /* PRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1834B3BEF6ABE2E1F03A5897 /* PRenderer.swift */; };
+		616766487E38B89DECABB080 /* WorldRotationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D53BB48767C81FDCC88761 /* WorldRotationComponent.swift */; };
+		6307E608C179F2E9BA353D35 /* SpriteKitLayerUpdatingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686379DADB0271FA8D8B8E0F /* SpriteKitLayerUpdatingSystem.swift */; };
+		686F650E82162E58E0BDED69 /* PRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F181EE8CFEA4D86BB7179B3 /* PRenderer.swift */; };
+		69BBF56F25F59F6B9E153E08 /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7895CF204861C3408E6A15D /* MetalRenderer.swift */; };
 		6CC6EEB4E7C5BDB729E951C3 /* LionRenderer2D.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 557E0850B89D47138ED26AF7 /* LionRenderer2D.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6DEC0241A53B7DBFEE6B9009 /* PRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F181EE8CFEA4D86BB7179B3 /* PRenderer.swift */; };
+		722346F3ACAD344E549AFC2B /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343BABFEB049EE694EE2D763 /* Pods_Example.framework */; };
+		75E7DD3912AD1786314B7B2C /* RenderSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7975D3B5B065D1C91A6CD0 /* RenderSystem.swift */; };
+		79907A9A0BDB519A59F44E10 /* PRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F181EE8CFEA4D86BB7179B3 /* PRenderer.swift */; };
 		7C6F638D65EA85EF85B533B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F625596807B55254F8384C30 /* Assets.xcassets */; };
 		80539678287CCD566DC3E6CE /* LionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C9CDF07C537239FCE2DC3C7 /* LionRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8ADC3B55874A352FDD2E3E07 /* PRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1834B3BEF6ABE2E1F03A5897 /* PRenderer.swift */; };
-		9555892A8BCFD728E86E36BB /* RenderSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AEC149AB4D1718EB06E452 /* RenderSystem.swift */; };
-		9B42AE62CF9CEB81FABF2067 /* RenderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAC7BAA7D9EAA5C021DB206 /* RenderComponent.swift */; };
+		808FDDFBD20D10FAFC895015 /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7895CF204861C3408E6A15D /* MetalRenderer.swift */; };
+		83EB9B007436A92ECAE5AF02 /* RenderSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7975D3B5B065D1C91A6CD0 /* RenderSystem.swift */; };
+		85F5D575F37E5348019FFC27 /* SpriteKitRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53F697DD59E79E8DF884AF /* SpriteKitRenderer.swift */; };
+		89A4E57258B6436B2768F005 /* Pods_LionRenderer2D_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97DACF522B2705BF822A53F /* Pods_LionRenderer2D_watchOS.framework */; };
+		906934933576E0E96EAC08D1 /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7895CF204861C3408E6A15D /* MetalRenderer.swift */; };
+		923635941B99B21365E7C2DB /* UpdateTransformSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB44646B686C029E3461C233 /* UpdateTransformSystem.swift */; };
+		92FE996C7DDE532C73836EC0 /* SpriteKitLayerUpdatingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686379DADB0271FA8D8B8E0F /* SpriteKitLayerUpdatingSystem.swift */; };
+		93F3DD90D0BD8E8DB54B52EF /* LayerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC1D2A604358FD812C54012 /* LayerComponent.swift */; };
+		993689C075DC823468388261 /* Pods_LionRenderer2D_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4A386F9315C501A42B122F /* Pods_LionRenderer2D_iOS.framework */; };
 		9C54EBEA2298A5020038BFDB /* LionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C9CDF07C537239FCE2DC3C7 /* LionRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9CF182229A329EEE39316EC9 /* RenderSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AEC149AB4D1718EB06E452 /* RenderSystem.swift */; };
-		A0B31E0FE23642671AB525F6 /* Pods_LionRenderer2D_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91351A46757BDFDD7275436D /* Pods_LionRenderer2D_iOS.framework */; };
-		A2AEAE1E6D97411DE8E47AE0 /* Pods_LionRenderer2D_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D565A4AE4CA53BBD5871C7 /* Pods_LionRenderer2D_watchOS.framework */; };
-		A5388D314352291C8515835E /* RenderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAC7BAA7D9EAA5C021DB206 /* RenderComponent.swift */; };
+		9FCDA59195087503B62F4F4D /* RenderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB903BE8B1617F4CDD4BAE9 /* RenderComponent.swift */; };
 		A91D7BA17BFF9168BE852FB1 /* LionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C9CDF07C537239FCE2DC3C7 /* LionRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA0DA265107A24376F71BC12 /* LionRenderer2D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557E0850B89D47138ED26AF7 /* LionRenderer2D.framework */; };
-		B4104E5DC195955BB46273B1 /* RenderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAC7BAA7D9EAA5C021DB206 /* RenderComponent.swift */; };
-		C5D31407E84DA89D1208866A /* Pods_LionRenderer2DTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014162F13751067281BE40EC /* Pods_LionRenderer2DTests.framework */; };
-		CD9E9041DB716316051A890A /* RenderSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AEC149AB4D1718EB06E452 /* RenderSystem.swift */; };
+		B330829C76A4FA1BBD178507 /* RenderSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7975D3B5B065D1C91A6CD0 /* RenderSystem.swift */; };
+		C41541C07C8241C600791E7F /* RenderSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7975D3B5B065D1C91A6CD0 /* RenderSystem.swift */; };
+		C590D1F683BAF067FD6CCC37 /* WorldRotationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D53BB48767C81FDCC88761 /* WorldRotationComponent.swift */; };
+		CB5D57EFEA6EFE488C55449A /* GameSpriteKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE2CCA5E956F8CFD11A22D /* GameSpriteKit.swift */; };
+		CBC24CAC6979978E89E61EBB /* LayerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC1D2A604358FD812C54012 /* LayerComponent.swift */; };
+		D283E705AC19FA4F28CA8F53 /* RenderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB903BE8B1617F4CDD4BAE9 /* RenderComponent.swift */; };
+		DCDB5B54095FC4CB78D64F6B /* LayerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC1D2A604358FD812C54012 /* LayerComponent.swift */; };
 		DCE4E9B0E779308F93CFF041 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661401FF03A1D6624D9A83F0 /* Main.storyboard */; };
-		DFCCF251B7D4BB40F8966DDD /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31A65B0EF6581E8E3C4975D /* Pods_Example.framework */; };
+		E1A72FD444F502A4A47FED7B /* MetalGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7057B2E1D9821D48C10AC1 /* MetalGameViewController.swift */; };
+		E2CCACEC478C03C34E72B976 /* SpriteKitRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53F697DD59E79E8DF884AF /* SpriteKitRenderer.swift */; };
+		ED295A7E7B60B2CC262FC05B /* Pods_LionRenderer2D_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C26168F677E8A2CDB728688 /* Pods_LionRenderer2D_macOS.framework */; };
 		EEFEE39E580C58FFBF4F8CB2 /* LionRenderer2D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557E0850B89D47138ED26AF7 /* LionRenderer2D.framework */; };
-		F1D3D05F247457E30029455E /* LayerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D05E247457E30029455E /* LayerComponent.swift */; };
-		F1D3D060247457E30029455E /* LayerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D05E247457E30029455E /* LayerComponent.swift */; };
-		F1D3D061247457E30029455E /* LayerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D05E247457E30029455E /* LayerComponent.swift */; };
-		F1D3D062247457E30029455E /* LayerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D05E247457E30029455E /* LayerComponent.swift */; };
-		F1D3D063247459AB0029455E /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B76C841EFEBE1449CA8A5E1 /* MetalRenderer.swift */; };
-		F1D3D064247459AB0029455E /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B76C841EFEBE1449CA8A5E1 /* MetalRenderer.swift */; };
-		F1D3D065247459AC0029455E /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B76C841EFEBE1449CA8A5E1 /* MetalRenderer.swift */; };
-		F1D3D066247459AC0029455E /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B76C841EFEBE1449CA8A5E1 /* MetalRenderer.swift */; };
-		F1D3D06824745A3C0029455E /* SpriteKitRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D06724745A3C0029455E /* SpriteKitRenderer.swift */; };
-		F1D3D06924745A3C0029455E /* SpriteKitRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D06724745A3C0029455E /* SpriteKitRenderer.swift */; };
-		F1D3D06A24745A3C0029455E /* SpriteKitRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D06724745A3C0029455E /* SpriteKitRenderer.swift */; };
-		F1D3D06B24745A3C0029455E /* SpriteKitRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D06724745A3C0029455E /* SpriteKitRenderer.swift */; };
-		F1D3D07124745BB10029455E /* GameSpriteKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D06C24745B650029455E /* GameSpriteKit.swift */; };
-		F1D3D07324745F0E0029455E /* SpriteKitGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D07224745F0E0029455E /* SpriteKitGameViewController.swift */; };
-		F1D3D079247468E70029455E /* UpdateTransformSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D078247468E70029455E /* UpdateTransformSystem.swift */; };
-		F1D3D07C24746D5E0029455E /* WorldRotationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D07A24746D280029455E /* WorldRotationComponent.swift */; };
-		F1D3D07D24746D5F0029455E /* WorldRotationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D07A24746D280029455E /* WorldRotationComponent.swift */; };
-		F1D3D07E24746D600029455E /* WorldRotationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D07A24746D280029455E /* WorldRotationComponent.swift */; };
-		F1D3D07F24746D600029455E /* WorldRotationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D07A24746D280029455E /* WorldRotationComponent.swift */; };
-		F1D3D081247474DB0029455E /* UpdateTransformComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D080247474DB0029455E /* UpdateTransformComponent.swift */; };
-		F1D3D084247478190029455E /* SpriteKitLayerUpdatingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D082247476BE0029455E /* SpriteKitLayerUpdatingSystem.swift */; };
-		F1D3D0852474781A0029455E /* SpriteKitLayerUpdatingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D082247476BE0029455E /* SpriteKitLayerUpdatingSystem.swift */; };
-		F1D3D0862474781A0029455E /* SpriteKitLayerUpdatingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D082247476BE0029455E /* SpriteKitLayerUpdatingSystem.swift */; };
-		F1D3D0872474781B0029455E /* SpriteKitLayerUpdatingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D3D082247476BE0029455E /* SpriteKitLayerUpdatingSystem.swift */; };
-		F9A594444392BD2BCEAECE31 /* Pods_LionRenderer2D_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4959D29B5CAE6D8A746DE0AF /* Pods_LionRenderer2D_tvOS.framework */; };
-		FAF8916EE6171ECC45C8E39F /* Pods_LionRenderer2D_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5399E60608BF8C04FE5D14 /* Pods_LionRenderer2D_macOS.framework */; };
+		F00E64ACFD734E80AD5CCA5A /* PRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F181EE8CFEA4D86BB7179B3 /* PRenderer.swift */; };
+		F33D64E585F8B191BF4B128E /* SpriteKitRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53F697DD59E79E8DF884AF /* SpriteKitRenderer.swift */; };
+		F7D2C1769574F4AFC814CAD6 /* RenderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB903BE8B1617F4CDD4BAE9 /* RenderComponent.swift */; };
 		FD3180E2375DC61F98FFFB3C /* LionRenderer2D.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 557E0850B89D47138ED26AF7 /* LionRenderer2D.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FFE597AD7B5D26557D15E331 /* PRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1834B3BEF6ABE2E1F03A5897 /* PRenderer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,80 +111,88 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		014162F13751067281BE40EC /* Pods_LionRenderer2DTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionRenderer2DTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B5861A763EBC2AA99A3C44F /* Pods-LionRenderer2D_watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer2D_watchOS.debug.xcconfig"; path = "Target Support Files/Pods-LionRenderer2D_watchOS/Pods-LionRenderer2D_watchOS.debug.xcconfig"; sourceTree = "<group>"; };
-		1834B3BEF6ABE2E1F03A5897 /* PRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRenderer.swift; sourceTree = "<group>"; };
+		0C95F7F8EA995DF85671E74E /* Pods-LionRenderer2D_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer2D_iOS.debug.xcconfig"; path = "Target Support Files/Pods-LionRenderer2D_iOS/Pods-LionRenderer2D_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		13B117C1581B7C4441B2592A /* Pods-LionRenderer2D_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer2D_macOS.release.xcconfig"; path = "Target Support Files/Pods-LionRenderer2D_macOS/Pods-LionRenderer2D_macOS.release.xcconfig"; sourceTree = "<group>"; };
+		1C26168F677E8A2CDB728688 /* Pods_LionRenderer2D_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionRenderer2D_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F181EE8CFEA4D86BB7179B3 /* PRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRenderer.swift; sourceTree = "<group>"; };
 		22A3B2B40BAE472A8A98FCB9 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		2585A8B289FD92061AA01DB6 /* SpriteKitGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitGameViewController.swift; sourceTree = "<group>"; };
 		28D020022F33B20AF2EB4472 /* LionRenderer2D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LionRenderer2D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B5399E60608BF8C04FE5D14 /* Pods_LionRenderer2D_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionRenderer2D_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3265D625E89B883C9C5E02A4 /* Pods-LionRenderer2DTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer2DTests.debug.xcconfig"; path = "Target Support Files/Pods-LionRenderer2DTests/Pods-LionRenderer2DTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C53F697DD59E79E8DF884AF /* SpriteKitRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitRenderer.swift; sourceTree = "<group>"; };
+		32D53BB48767C81FDCC88761 /* WorldRotationComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldRotationComponent.swift; sourceTree = "<group>"; };
+		343BABFEB049EE694EE2D763 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A7975D3B5B065D1C91A6CD0 /* RenderSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderSystem.swift; sourceTree = "<group>"; };
 		3CA3149BAA0D0853D862383F /* WorldPositionComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldPositionComponent.swift; sourceTree = "<group>"; };
-		4959D29B5CAE6D8A746DE0AF /* Pods_LionRenderer2D_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionRenderer2D_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B05819EE89EAEF65B2DD266 /* Pods-LionRenderer2D_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer2D_macOS.release.xcconfig"; path = "Target Support Files/Pods-LionRenderer2D_macOS/Pods-LionRenderer2D_macOS.release.xcconfig"; sourceTree = "<group>"; };
+		3D7057B2E1D9821D48C10AC1 /* MetalGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalGameViewController.swift; sourceTree = "<group>"; };
+		44074C20B69158AAC8B31BD3 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		44EB3F5B8D8DB7566B0AB055 /* Pods-LionRenderer2D_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer2D_iOS.release.xcconfig"; path = "Target Support Files/Pods-LionRenderer2D_iOS/Pods-LionRenderer2D_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		4AB903BE8B1617F4CDD4BAE9 /* RenderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderComponent.swift; sourceTree = "<group>"; };
+		4C8FEB527A46E7501A304793 /* Pods_LionRenderer2DTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionRenderer2DTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC1D2A604358FD812C54012 /* LayerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerComponent.swift; sourceTree = "<group>"; };
 		557E0850B89D47138ED26AF7 /* LionRenderer2D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LionRenderer2D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		59267093C960CA49BE52033A /* Pods-LionRenderer2D_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer2D_macOS.debug.xcconfig"; path = "Target Support Files/Pods-LionRenderer2D_macOS/Pods-LionRenderer2D_macOS.debug.xcconfig"; sourceTree = "<group>"; };
-		5A085C2FC4E33052B6B8DE35 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		5D5AA7FC913927359996E236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64BCC6A1369DD21DB98894A9 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		686CEB41D4CA87BE41B19BDD /* Pods-LionRenderer2D_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer2D_iOS.release.xcconfig"; path = "Target Support Files/Pods-LionRenderer2D_iOS/Pods-LionRenderer2D_iOS.release.xcconfig"; sourceTree = "<group>"; };
-		6B76C841EFEBE1449CA8A5E1 /* MetalRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
+		674C116EF8561D393152C4E5 /* Pods_LionRenderer2D_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionRenderer2D_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		686379DADB0271FA8D8B8E0F /* SpriteKitLayerUpdatingSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitLayerUpdatingSystem.swift; sourceTree = "<group>"; };
 		6BD5B8DFAA2AFEA0E2723C17 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		6C9CDF07C537239FCE2DC3C7 /* LionRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LionRenderer.h; sourceTree = "<group>"; };
-		6F79A3B367D8D08C2D6F5112 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		743F60AE3E8DAC085440A6F7 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A5CE94C6092BA4BEBCD1011 /* Pods-LionRenderer2DTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer2DTests.release.xcconfig"; path = "Target Support Files/Pods-LionRenderer2DTests/Pods-LionRenderer2DTests.release.xcconfig"; sourceTree = "<group>"; };
 		7AC67AE87785D27C332ED6B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		80E01C34F70C85D031A75466 /* GameMetal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMetal.swift; sourceTree = "<group>"; };
 		86A0660CCFF66EACE86C3A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8FAC7BAA7D9EAA5C021DB206 /* RenderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderComponent.swift; sourceTree = "<group>"; };
-		91351A46757BDFDD7275436D /* Pods_LionRenderer2D_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionRenderer2D_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89467B1C577A3D957011740E /* Pods-LionRenderer2D_watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer2D_watchOS.debug.xcconfig"; path = "Target Support Files/Pods-LionRenderer2D_watchOS/Pods-LionRenderer2D_watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		92F270D2E7C285AE70626AD6 /* UpdateTransformComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTransformComponent.swift; sourceTree = "<group>"; };
 		936B63C6256677AED1463385 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94114030B1CB3180C435FF89 /* Pods-LionRenderer2DTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer2DTests.debug.xcconfig"; path = "Target Support Files/Pods-LionRenderer2DTests/Pods-LionRenderer2DTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9504489CD9650B89F7DF0399 /* Pods-LionRenderer2D_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer2D_tvOS.debug.xcconfig"; path = "Target Support Files/Pods-LionRenderer2D_tvOS/Pods-LionRenderer2D_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9D2824B590BB7DF487C1BFED /* Pods-LionRenderer2D_watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer2D_watchOS.release.xcconfig"; path = "Target Support Files/Pods-LionRenderer2D_watchOS/Pods-LionRenderer2D_watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		9E8193B9A44889AFC5385246 /* GameMetal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMetal.swift; sourceTree = "<group>"; };
 		A0B7DE7EC8B527D589B4DD0D /* Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Example.entitlements; sourceTree = "<group>"; };
-		A9AEC149AB4D1718EB06E452 /* RenderSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderSystem.swift; sourceTree = "<group>"; };
+		A97DACF522B2705BF822A53F /* Pods_LionRenderer2D_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionRenderer2D_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC461F430E8A87275098CAB /* LionRenderer2DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionRenderer2DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF236D5D6CEB63BF2211EB5A /* LionRenderer2D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LionRenderer2D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EDC516F7EC6CC18DB76B59 /* LionRenderer2D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LionRenderer2D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE995929370CCDF405C42B4B /* MetalGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalGameViewController.swift; sourceTree = "<group>"; };
-		BF4AB76B8C24732B4C7D3D22 /* Pods-LionRenderer2D_watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer2D_watchOS.release.xcconfig"; path = "Target Support Files/Pods-LionRenderer2D_watchOS/Pods-LionRenderer2D_watchOS.release.xcconfig"; sourceTree = "<group>"; };
-		D31A65B0EF6581E8E3C4975D /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D91C2BA1872E0DE84CE459B2 /* Pods-LionRenderer2D_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer2D_tvOS.release.xcconfig"; path = "Target Support Files/Pods-LionRenderer2D_tvOS/Pods-LionRenderer2D_tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		F182A5EEB994AAE99B0E7584 /* Pods-LionRenderer2D_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer2D_iOS.debug.xcconfig"; path = "Target Support Files/Pods-LionRenderer2D_iOS/Pods-LionRenderer2D_iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		F1D3D05E247457E30029455E /* LayerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerComponent.swift; sourceTree = "<group>"; };
-		F1D3D06724745A3C0029455E /* SpriteKitRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitRenderer.swift; sourceTree = "<group>"; };
-		F1D3D06C24745B650029455E /* GameSpriteKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSpriteKit.swift; sourceTree = "<group>"; };
-		F1D3D07224745F0E0029455E /* SpriteKitGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitGameViewController.swift; sourceTree = "<group>"; };
-		F1D3D078247468E70029455E /* UpdateTransformSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTransformSystem.swift; sourceTree = "<group>"; };
-		F1D3D07A24746D280029455E /* WorldRotationComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldRotationComponent.swift; sourceTree = "<group>"; };
-		F1D3D080247474DB0029455E /* UpdateTransformComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTransformComponent.swift; sourceTree = "<group>"; };
-		F1D3D082247476BE0029455E /* SpriteKitLayerUpdatingSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitLayerUpdatingSystem.swift; sourceTree = "<group>"; };
-		F4D565A4AE4CA53BBD5871C7 /* Pods_LionRenderer2D_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionRenderer2D_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5FEFBE481579E7C621B4CCD /* Pods-LionRenderer2DTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer2DTests.release.xcconfig"; path = "Target Support Files/Pods-LionRenderer2DTests/Pods-LionRenderer2DTests.release.xcconfig"; sourceTree = "<group>"; };
+		C7895CF204861C3408E6A15D /* MetalRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
+		CB44646B686C029E3461C233 /* UpdateTransformSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTransformSystem.swift; sourceTree = "<group>"; };
+		D5BFA27036E22ADCE638D3E4 /* Pods-LionRenderer2D_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer2D_tvOS.release.xcconfig"; path = "Target Support Files/Pods-LionRenderer2D_tvOS/Pods-LionRenderer2D_tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		D5E8D11E2052D914D86CF683 /* Pods-LionRenderer2D_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer2D_macOS.debug.xcconfig"; path = "Target Support Files/Pods-LionRenderer2D_macOS/Pods-LionRenderer2D_macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D64063CEEDEEC8C78F8EC40F /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EFDE2CCA5E956F8CFD11A22D /* GameSpriteKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSpriteKit.swift; sourceTree = "<group>"; };
 		F625596807B55254F8384C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F688F06D2666F08A379FE0D4 /* Pods-LionRenderer2D_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LionRenderer2D_tvOS.debug.xcconfig"; path = "Target Support Files/Pods-LionRenderer2D_tvOS/Pods-LionRenderer2D_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FB4A386F9315C501A42B122F /* Pods_LionRenderer2D_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LionRenderer2D_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD23433706AB99F0F2ABEDD8 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0FC2B4906C12688FC765317D /* Frameworks */ = {
+		70933D2149761153C3E4BED2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAF8916EE6171ECC45C8E39F /* Pods_LionRenderer2D_macOS.framework in Frameworks */,
+				993689C075DC823468388261 /* Pods_LionRenderer2D_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B885D15216807FED707CA54 /* Frameworks */ = {
+		7B612C6DB172BF31C23E311C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0B31E0FE23642671AB525F6 /* Pods_LionRenderer2D_iOS.framework in Frameworks */,
+				ED295A7E7B60B2CC262FC05B /* Pods_LionRenderer2D_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A13235660557353BBF503CB /* Frameworks */ = {
+		95E9EA865AD5D618EAF0FC48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9A594444392BD2BCEAECE31 /* Pods_LionRenderer2D_tvOS.framework in Frameworks */,
+				89A4E57258B6436B2768F005 /* Pods_LionRenderer2D_watchOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA4D1A0C05F75C9B5676BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3246E2C30F5A99C90B3ABCEA /* Pods_LionRenderer2D_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA0DA265107A24376F71BC12 /* LionRenderer2D.framework in Frameworks */,
-				C5D31407E84DA89D1208866A /* Pods_LionRenderer2DTests.framework in Frameworks */,
+				3F4E7BB4E88CCF9523047E50 /* Pods_LionRenderer2DTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,15 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEFEE39E580C58FFBF4F8CB2 /* LionRenderer2D.framework in Frameworks */,
-				DFCCF251B7D4BB40F8966DDD /* Pods_Example.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB4C9EFFB57EA2E13A1D38C8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A2AEAE1E6D97411DE8E47AE0 /* Pods_LionRenderer2D_watchOS.framework in Frameworks */,
+				722346F3ACAD344E549AFC2B /* Pods_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,15 +230,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		43ED9C12E3A9CEBF1A9E2650 /* Frameworks */ = {
+		4ADE1E3B7079285058FC0306 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D31A65B0EF6581E8E3C4975D /* Pods_Example.framework */,
-				014162F13751067281BE40EC /* Pods_LionRenderer2DTests.framework */,
-				91351A46757BDFDD7275436D /* Pods_LionRenderer2D_iOS.framework */,
-				2B5399E60608BF8C04FE5D14 /* Pods_LionRenderer2D_macOS.framework */,
-				4959D29B5CAE6D8A746DE0AF /* Pods_LionRenderer2D_tvOS.framework */,
-				F4D565A4AE4CA53BBD5871C7 /* Pods_LionRenderer2D_watchOS.framework */,
+				343BABFEB049EE694EE2D763 /* Pods_Example.framework */,
+				4C8FEB527A46E7501A304793 /* Pods_LionRenderer2DTests.framework */,
+				FB4A386F9315C501A42B122F /* Pods_LionRenderer2D_iOS.framework */,
+				1C26168F677E8A2CDB728688 /* Pods_LionRenderer2D_macOS.framework */,
+				674C116EF8561D393152C4E5 /* Pods_LionRenderer2D_tvOS.framework */,
+				A97DACF522B2705BF822A53F /* Pods_LionRenderer2D_watchOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -253,47 +253,38 @@
 				8DC4F1F34FDBB8D187800C0F /* LionRenderer2DTests */,
 				64BCC6A1369DD21DB98894A9 /* Package.swift */,
 				1AF514568227ED5CE043A2D9 /* Products */,
-				84070202B9D89A58919A496A /* Pods */,
-				43ED9C12E3A9CEBF1A9E2650 /* Frameworks */,
+				E4A7C6460A5DD300BC0B7D72 /* Pods */,
+				4ADE1E3B7079285058FC0306 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		5C5D4C1E6FD8E8783DF2C04D /* Rendering */ = {
 			isa = PBXGroup;
 			children = (
-				F1D3D077247464870029455E /* SpriteKit */,
-				F1D3D0762474647D0029455E /* Metal */,
-				F1D3D075247464690029455E /* Common */,
+				691D9B613D004578267B9657 /* Common */,
+				B93601C65299279278DA5FDC /* Metal */,
+				F4E029A7265C5E81806B6AA5 /* SpriteKit */,
 			);
 			path = Rendering;
 			sourceTree = "<group>";
 		};
-		84070202B9D89A58919A496A /* Pods */ = {
+		691D9B613D004578267B9657 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				6F79A3B367D8D08C2D6F5112 /* Pods-Example.debug.xcconfig */,
-				5A085C2FC4E33052B6B8DE35 /* Pods-Example.release.xcconfig */,
-				3265D625E89B883C9C5E02A4 /* Pods-LionRenderer2DTests.debug.xcconfig */,
-				7A5CE94C6092BA4BEBCD1011 /* Pods-LionRenderer2DTests.release.xcconfig */,
-				F182A5EEB994AAE99B0E7584 /* Pods-LionRenderer2D_iOS.debug.xcconfig */,
-				686CEB41D4CA87BE41B19BDD /* Pods-LionRenderer2D_iOS.release.xcconfig */,
-				59267093C960CA49BE52033A /* Pods-LionRenderer2D_macOS.debug.xcconfig */,
-				4B05819EE89EAEF65B2DD266 /* Pods-LionRenderer2D_macOS.release.xcconfig */,
-				F688F06D2666F08A379FE0D4 /* Pods-LionRenderer2D_tvOS.debug.xcconfig */,
-				D91C2BA1872E0DE84CE459B2 /* Pods-LionRenderer2D_tvOS.release.xcconfig */,
-				0B5861A763EBC2AA99A3C44F /* Pods-LionRenderer2D_watchOS.debug.xcconfig */,
-				BF4AB76B8C24732B4C7D3D22 /* Pods-LionRenderer2D_watchOS.release.xcconfig */,
+				1F181EE8CFEA4D86BB7179B3 /* PRenderer.swift */,
+				4AB903BE8B1617F4CDD4BAE9 /* RenderComponent.swift */,
+				3A7975D3B5B065D1C91A6CD0 /* RenderSystem.swift */,
 			);
-			path = Pods;
+			path = Common;
 			sourceTree = "<group>";
 		};
 		85ED4CEE14AE7EBD66C6B7E3 /* ExampleCommon */ = {
 			isa = PBXGroup;
 			children = (
-				80E01C34F70C85D031A75466 /* GameMetal.swift */,
-				F1D3D06C24745B650029455E /* GameSpriteKit.swift */,
-				F1D3D078247468E70029455E /* UpdateTransformSystem.swift */,
-				F1D3D080247474DB0029455E /* UpdateTransformComponent.swift */,
+				9E8193B9A44889AFC5385246 /* GameMetal.swift */,
+				EFDE2CCA5E956F8CFD11A22D /* GameSpriteKit.swift */,
+				92F270D2E7C285AE70626AD6 /* UpdateTransformComponent.swift */,
+				CB44646B686C029E3461C233 /* UpdateTransformSystem.swift */,
 			);
 			path = ExampleCommon;
 			sourceTree = "<group>";
@@ -319,11 +310,19 @@
 		AFFE2E30D15598AF8F75C9EF /* Transforms */ = {
 			isa = PBXGroup;
 			children = (
+				4CC1D2A604358FD812C54012 /* LayerComponent.swift */,
 				3CA3149BAA0D0853D862383F /* WorldPositionComponent.swift */,
-				F1D3D05E247457E30029455E /* LayerComponent.swift */,
-				F1D3D07A24746D280029455E /* WorldRotationComponent.swift */,
+				32D53BB48767C81FDCC88761 /* WorldRotationComponent.swift */,
 			);
 			path = Transforms;
+			sourceTree = "<group>";
+		};
+		B93601C65299279278DA5FDC /* Metal */ = {
+			isa = PBXGroup;
+			children = (
+				C7895CF204861C3408E6A15D /* MetalRenderer.swift */,
+			);
+			path = Metal;
 			sourceTree = "<group>";
 		};
 		C78006B54CEE2D1360D145A6 /* Example */ = {
@@ -334,8 +333,8 @@
 				A0B7DE7EC8B527D589B4DD0D /* Example.entitlements */,
 				7AC67AE87785D27C332ED6B8 /* Info.plist */,
 				661401FF03A1D6624D9A83F0 /* Main.storyboard */,
-				BE995929370CCDF405C42B4B /* MetalGameViewController.swift */,
-				F1D3D07224745F0E0029455E /* SpriteKitGameViewController.swift */,
+				3D7057B2E1D9821D48C10AC1 /* MetalGameViewController.swift */,
+				2585A8B289FD92061AA01DB6 /* SpriteKitGameViewController.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -350,29 +349,31 @@
 			path = Configurations;
 			sourceTree = "<group>";
 		};
-		F1D3D075247464690029455E /* Common */ = {
+		E4A7C6460A5DD300BC0B7D72 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A9AEC149AB4D1718EB06E452 /* RenderSystem.swift */,
-				1834B3BEF6ABE2E1F03A5897 /* PRenderer.swift */,
-				8FAC7BAA7D9EAA5C021DB206 /* RenderComponent.swift */,
+				D64063CEEDEEC8C78F8EC40F /* Pods-Example.debug.xcconfig */,
+				44074C20B69158AAC8B31BD3 /* Pods-Example.release.xcconfig */,
+				94114030B1CB3180C435FF89 /* Pods-LionRenderer2DTests.debug.xcconfig */,
+				B5FEFBE481579E7C621B4CCD /* Pods-LionRenderer2DTests.release.xcconfig */,
+				0C95F7F8EA995DF85671E74E /* Pods-LionRenderer2D_iOS.debug.xcconfig */,
+				44EB3F5B8D8DB7566B0AB055 /* Pods-LionRenderer2D_iOS.release.xcconfig */,
+				D5E8D11E2052D914D86CF683 /* Pods-LionRenderer2D_macOS.debug.xcconfig */,
+				13B117C1581B7C4441B2592A /* Pods-LionRenderer2D_macOS.release.xcconfig */,
+				9504489CD9650B89F7DF0399 /* Pods-LionRenderer2D_tvOS.debug.xcconfig */,
+				D5BFA27036E22ADCE638D3E4 /* Pods-LionRenderer2D_tvOS.release.xcconfig */,
+				89467B1C577A3D957011740E /* Pods-LionRenderer2D_watchOS.debug.xcconfig */,
+				9D2824B590BB7DF487C1BFED /* Pods-LionRenderer2D_watchOS.release.xcconfig */,
 			);
-			path = Common;
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		F1D3D0762474647D0029455E /* Metal */ = {
+		F4E029A7265C5E81806B6AA5 /* SpriteKit */ = {
 			isa = PBXGroup;
 			children = (
-				6B76C841EFEBE1449CA8A5E1 /* MetalRenderer.swift */,
-			);
-			path = Metal;
-			sourceTree = "<group>";
-		};
-		F1D3D077247464870029455E /* SpriteKit */ = {
-			isa = PBXGroup;
-			children = (
-				F1D3D06724745A3C0029455E /* SpriteKitRenderer.swift */,
-				F1D3D082247476BE0029455E /* SpriteKitLayerUpdatingSystem.swift */,
+				686379DADB0271FA8D8B8E0F /* SpriteKitLayerUpdatingSystem.swift */,
+				2C53F697DD59E79E8DF884AF /* SpriteKitRenderer.swift */,
 			);
 			path = SpriteKit;
 			sourceTree = "<group>";
@@ -419,13 +420,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6553A2E0FAACFC9CD81595F /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
-				8E3723AD611327F02AA68DC5 /* [CP] Check Pods Manifest.lock */,
+				B285CBD9813016B8A347B857 /* [CP] Check Pods Manifest.lock */,
 				9878D4A380745DC04D2E7ADB /* Sources */,
 				A0E85BAD4D7C29DA02E111C0 /* Resources */,
 				C472BB8A9C98FEFC4CDB99B7 /* Frameworks */,
 				07AC4A666339CE742121B9D4 /* Embed Frameworks */,
 				73FC5B2305E48CA1B20FF26A /* SwiftLint */,
-				E482812CEDEAADC977FDA8BA /* [CP] Embed Pods Frameworks */,
+				7F8C431B1F6A36384C5FE8C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -441,10 +442,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 298BF41873E61502769B27FA /* Build configuration list for PBXNativeTarget "LionRenderer2D_tvOS" */;
 			buildPhases = (
-				22C6FAA4928CABC88D872415 /* [CP] Check Pods Manifest.lock */,
+				5DF8C24AA3F49218271E8E6B /* [CP] Check Pods Manifest.lock */,
 				A26C330382A2F24072EC455A /* Headers */,
 				42C312D8E276AAB9ED9E06AD /* Sources */,
-				5A13235660557353BBF503CB /* Frameworks */,
+				9BA4D1A0C05F75C9B5676BFD /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -459,10 +460,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3A6EBA3260CE17D8ECB6EA5 /* Build configuration list for PBXNativeTarget "LionRenderer2D_watchOS" */;
 			buildPhases = (
-				7FC9AA2A36D87CC93042DAC0 /* [CP] Check Pods Manifest.lock */,
+				F65AFA36F6DFF9A2BBA6AD5B /* [CP] Check Pods Manifest.lock */,
 				5E009DFC2F83525295A3173F /* Headers */,
 				6EDBE2C21EAB4DB1D6E554B5 /* Sources */,
-				EB4C9EFFB57EA2E13A1D38C8 /* Frameworks */,
+				95E9EA865AD5D618EAF0FC48 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -477,10 +478,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8000C4CA3A5468257022709 /* Build configuration list for PBXNativeTarget "LionRenderer2D_iOS" */;
 			buildPhases = (
-				A8237B14E4FDD93B72E86E06 /* [CP] Check Pods Manifest.lock */,
+				FDF208DEDBBF68A60079D8FC /* [CP] Check Pods Manifest.lock */,
 				C8E706E131323C570971195D /* Headers */,
 				49235FE348278DA89A73B070 /* Sources */,
-				2B885D15216807FED707CA54 /* Frameworks */,
+				70933D2149761153C3E4BED2 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -495,7 +496,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFB235B9D907F11252E745E0 /* Build configuration list for PBXNativeTarget "LionRenderer2DTests" */;
 			buildPhases = (
-				F30D20EA4CB39F15D9184821 /* [CP] Check Pods Manifest.lock */,
+				A5F93940BE61D6259A241E03 /* [CP] Check Pods Manifest.lock */,
 				706186D5E416997A2FA29729 /* Sources */,
 				A452004F387F3209094487D6 /* Frameworks */,
 				5C473D2B82DBF832A3791D81 /* Embed Frameworks */,
@@ -514,10 +515,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68D024180082B33EB21DC9DE /* Build configuration list for PBXNativeTarget "LionRenderer2D_macOS" */;
 			buildPhases = (
-				FBF4A10FB43D3BA12DA6F42F /* [CP] Check Pods Manifest.lock */,
+				E2327E67A667306AED720DC4 /* [CP] Check Pods Manifest.lock */,
 				BEB09DF14A7C6052738FFAB3 /* Headers */,
 				9213637E02FF563587141FFE /* Sources */,
-				0FC2B4906C12688FC765317D /* Frameworks */,
+				7B612C6DB172BF31C23E311C /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -562,7 +563,6 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = 4B612413EDFA0ED9212A9CBA;
@@ -593,7 +593,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		22C6FAA4928CABC88D872415 /* [CP] Check Pods Manifest.lock */ = {
+		5DF8C24AA3F49218271E8E6B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -633,73 +633,7 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
-		7FC9AA2A36D87CC93042DAC0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LionRenderer2D_watchOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8E3723AD611327F02AA68DC5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A8237B14E4FDD93B72E86E06 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LionRenderer2D_iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E482812CEDEAADC977FDA8BA /* [CP] Embed Pods Frameworks */ = {
+		7F8C431B1F6A36384C5FE8C0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -716,7 +650,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F30D20EA4CB39F15D9184821 /* [CP] Check Pods Manifest.lock */ = {
+		A5F93940BE61D6259A241E03 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -738,7 +672,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FBF4A10FB43D3BA12DA6F42F /* [CP] Check Pods Manifest.lock */ = {
+		B285CBD9813016B8A347B857 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2327E67A667306AED720DC4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -760,6 +716,50 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F65AFA36F6DFF9A2BBA6AD5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LionRenderer2D_watchOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDF208DEDBBF68A60079D8FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LionRenderer2D_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -767,15 +767,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1D3D06A24745A3C0029455E /* SpriteKitRenderer.swift in Sources */,
-				F1D3D0852474781A0029455E /* SpriteKitLayerUpdatingSystem.swift in Sources */,
-				6B3EE03FB5251B098CDF07B7 /* PRenderer.swift in Sources */,
-				F1D3D065247459AC0029455E /* MetalRenderer.swift in Sources */,
-				A5388D314352291C8515835E /* RenderComponent.swift in Sources */,
-				F1D3D07D24746D5F0029455E /* WorldRotationComponent.swift in Sources */,
-				25ACF7BA70009F33ED4AD47E /* RenderSystem.swift in Sources */,
+				5378FC78D8FD16141F51CFEB /* LayerComponent.swift in Sources */,
+				69BBF56F25F59F6B9E153E08 /* MetalRenderer.swift in Sources */,
+				686F650E82162E58E0BDED69 /* PRenderer.swift in Sources */,
+				347488CA691790ADCE9C8ECF /* RenderComponent.swift in Sources */,
+				B330829C76A4FA1BBD178507 /* RenderSystem.swift in Sources */,
+				92FE996C7DDE532C73836EC0 /* SpriteKitLayerUpdatingSystem.swift in Sources */,
+				85F5D575F37E5348019FFC27 /* SpriteKitRenderer.swift in Sources */,
 				536EC6280C0C376FDD9493D4 /* WorldPositionComponent.swift in Sources */,
-				F1D3D061247457E30029455E /* LayerComponent.swift in Sources */,
+				616766487E38B89DECABB080 /* WorldRotationComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -783,15 +783,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1D3D06824745A3C0029455E /* SpriteKitRenderer.swift in Sources */,
-				F1D3D0872474781B0029455E /* SpriteKitLayerUpdatingSystem.swift in Sources */,
-				2BDD978043D61F32469D9AE3 /* PRenderer.swift in Sources */,
-				F1D3D063247459AB0029455E /* MetalRenderer.swift in Sources */,
-				0FDB024BB700ADA97ABA6EC1 /* RenderComponent.swift in Sources */,
-				F1D3D07F24746D600029455E /* WorldRotationComponent.swift in Sources */,
-				9555892A8BCFD728E86E36BB /* RenderSystem.swift in Sources */,
+				CBC24CAC6979978E89E61EBB /* LayerComponent.swift in Sources */,
+				808FDDFBD20D10FAFC895015 /* MetalRenderer.swift in Sources */,
+				79907A9A0BDB519A59F44E10 /* PRenderer.swift in Sources */,
+				9FCDA59195087503B62F4F4D /* RenderComponent.swift in Sources */,
+				83EB9B007436A92ECAE5AF02 /* RenderSystem.swift in Sources */,
+				6307E608C179F2E9BA353D35 /* SpriteKitLayerUpdatingSystem.swift in Sources */,
+				E2CCACEC478C03C34E72B976 /* SpriteKitRenderer.swift in Sources */,
 				20CD925E8C1A15C57C1916EE /* WorldPositionComponent.swift in Sources */,
-				F1D3D05F247457E30029455E /* LayerComponent.swift in Sources */,
+				1CF43F7B51F00399AA09AAF6 /* WorldRotationComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -799,15 +799,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1D3D06B24745A3C0029455E /* SpriteKitRenderer.swift in Sources */,
-				F1D3D084247478190029455E /* SpriteKitLayerUpdatingSystem.swift in Sources */,
-				FFE597AD7B5D26557D15E331 /* PRenderer.swift in Sources */,
-				F1D3D066247459AC0029455E /* MetalRenderer.swift in Sources */,
-				B4104E5DC195955BB46273B1 /* RenderComponent.swift in Sources */,
-				F1D3D07C24746D5E0029455E /* WorldRotationComponent.swift in Sources */,
-				9CF182229A329EEE39316EC9 /* RenderSystem.swift in Sources */,
+				DCDB5B54095FC4CB78D64F6B /* LayerComponent.swift in Sources */,
+				2F7F97947AD33144E100C7AC /* MetalRenderer.swift in Sources */,
+				6DEC0241A53B7DBFEE6B9009 /* PRenderer.swift in Sources */,
+				F7D2C1769574F4AFC814CAD6 /* RenderComponent.swift in Sources */,
+				C41541C07C8241C600791E7F /* RenderSystem.swift in Sources */,
+				0F2A79550A491E098C6B7CC5 /* SpriteKitLayerUpdatingSystem.swift in Sources */,
+				087CE691B6C7BC94829F5A72 /* SpriteKitRenderer.swift in Sources */,
 				3820B6B27BD892FE0AB8B98C /* WorldPositionComponent.swift in Sources */,
-				F1D3D062247457E30029455E /* LayerComponent.swift in Sources */,
+				C590D1F683BAF067FD6CCC37 /* WorldRotationComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -822,15 +822,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1D3D06924745A3C0029455E /* SpriteKitRenderer.swift in Sources */,
-				F1D3D0862474781A0029455E /* SpriteKitLayerUpdatingSystem.swift in Sources */,
-				8ADC3B55874A352FDD2E3E07 /* PRenderer.swift in Sources */,
-				F1D3D064247459AB0029455E /* MetalRenderer.swift in Sources */,
-				9B42AE62CF9CEB81FABF2067 /* RenderComponent.swift in Sources */,
-				F1D3D07E24746D600029455E /* WorldRotationComponent.swift in Sources */,
-				CD9E9041DB716316051A890A /* RenderSystem.swift in Sources */,
+				93F3DD90D0BD8E8DB54B52EF /* LayerComponent.swift in Sources */,
+				906934933576E0E96EAC08D1 /* MetalRenderer.swift in Sources */,
+				F00E64ACFD734E80AD5CCA5A /* PRenderer.swift in Sources */,
+				D283E705AC19FA4F28CA8F53 /* RenderComponent.swift in Sources */,
+				75E7DD3912AD1786314B7B2C /* RenderSystem.swift in Sources */,
+				25239BC03621411178A631F7 /* SpriteKitLayerUpdatingSystem.swift in Sources */,
+				F33D64E585F8B191BF4B128E /* SpriteKitRenderer.swift in Sources */,
 				1F40000B65B17DE20B5994A6 /* WorldPositionComponent.swift in Sources */,
-				F1D3D060247457E30029455E /* LayerComponent.swift in Sources */,
+				1B1D913B436E1CB1A004B466 /* WorldRotationComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -839,12 +839,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				279E5BAAB3D359FE102A0F25 /* AppDelegate.swift in Sources */,
-				F1D3D081247474DB0029455E /* UpdateTransformComponent.swift in Sources */,
-				25D51EB107F08413E96793C0 /* GameMetal.swift in Sources */,
-				18ED6701BB187E51C3424860 /* MetalGameViewController.swift in Sources */,
-				F1D3D07324745F0E0029455E /* SpriteKitGameViewController.swift in Sources */,
-				F1D3D079247468E70029455E /* UpdateTransformSystem.swift in Sources */,
-				F1D3D07124745BB10029455E /* GameSpriteKit.swift in Sources */,
+				0A41B2D95599126DA7272C40 /* GameMetal.swift in Sources */,
+				CB5D57EFEA6EFE488C55449A /* GameSpriteKit.swift in Sources */,
+				E1A72FD444F502A4A47FED7B /* MetalGameViewController.swift in Sources */,
+				18704504A78C8404602553CD /* SpriteKitGameViewController.swift in Sources */,
+				0F14DD301B3719D7DCBC6DEC /* UpdateTransformComponent.swift in Sources */,
+				923635941B99B21365E7C2DB /* UpdateTransformSystem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -877,7 +877,7 @@
 /* Begin XCBuildConfiguration section */
 		1D6C62A9AC47E6735AB7DEE0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF4AB76B8C24732B4C7D3D22 /* Pods-LionRenderer2D_watchOS.release.xcconfig */;
+			baseConfigurationReference = 9D2824B590BB7DF487C1BFED /* Pods-LionRenderer2D_watchOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -898,7 +898,7 @@
 		};
 		29376371FC80A73FFF59F3E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3265D625E89B883C9C5E02A4 /* Pods-LionRenderer2DTests.debug.xcconfig */;
+			baseConfigurationReference = 94114030B1CB3180C435FF89 /* Pods-LionRenderer2DTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -915,7 +915,7 @@
 		};
 		2EBADDC7AD666FD5239477E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F182A5EEB994AAE99B0E7584 /* Pods-LionRenderer2D_iOS.debug.xcconfig */;
+			baseConfigurationReference = 0C95F7F8EA995DF85671E74E /* Pods-LionRenderer2D_iOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -990,7 +990,7 @@
 		};
 		476F09FB961DAE29D8DF852C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B05819EE89EAEF65B2DD266 /* Pods-LionRenderer2D_macOS.release.xcconfig */;
+			baseConfigurationReference = 13B117C1581B7C4441B2592A /* Pods-LionRenderer2D_macOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1072,7 +1072,7 @@
 		};
 		6B593C23687269E78EACC9D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F79A3B367D8D08C2D6F5112 /* Pods-Example.debug.xcconfig */;
+			baseConfigurationReference = D64063CEEDEEC8C78F8EC40F /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1090,7 +1090,7 @@
 		};
 		7171BF9354F1B664A97BA07A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F688F06D2666F08A379FE0D4 /* Pods-LionRenderer2D_tvOS.debug.xcconfig */;
+			baseConfigurationReference = 9504489CD9650B89F7DF0399 /* Pods-LionRenderer2D_tvOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1115,7 +1115,7 @@
 		};
 		733FFCDBE8D25FEDE2865C76 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A085C2FC4E33052B6B8DE35 /* Pods-Example.release.xcconfig */;
+			baseConfigurationReference = 44074C20B69158AAC8B31BD3 /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1133,7 +1133,7 @@
 		};
 		8519C8A30C3793FDA1C4A722 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 686CEB41D4CA87BE41B19BDD /* Pods-LionRenderer2D_iOS.release.xcconfig */;
+			baseConfigurationReference = 44EB3F5B8D8DB7566B0AB055 /* Pods-LionRenderer2D_iOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1158,7 +1158,7 @@
 		};
 		9EA7F2593243805C2C898D7C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B5861A763EBC2AA99A3C44F /* Pods-LionRenderer2D_watchOS.debug.xcconfig */;
+			baseConfigurationReference = 89467B1C577A3D957011740E /* Pods-LionRenderer2D_watchOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1179,7 +1179,7 @@
 		};
 		A54FDE51F85F9987587D6578 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59267093C960CA49BE52033A /* Pods-LionRenderer2D_macOS.debug.xcconfig */;
+			baseConfigurationReference = D5E8D11E2052D914D86CF683 /* Pods-LionRenderer2D_macOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1204,7 +1204,7 @@
 		};
 		C0381BDCF32CE1D311107E9F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A5CE94C6092BA4BEBCD1011 /* Pods-LionRenderer2DTests.release.xcconfig */;
+			baseConfigurationReference = B5FEFBE481579E7C621B4CCD /* Pods-LionRenderer2DTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1221,7 +1221,7 @@
 		};
 		D8D3B7E8F6979A8C054FAFE1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D91C2BA1872E0DE84CE459B2 /* Pods-LionRenderer2D_tvOS.release.xcconfig */;
+			baseConfigurationReference = D5BFA27036E22ADCE638D3E4 /* Pods-LionRenderer2D_tvOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
