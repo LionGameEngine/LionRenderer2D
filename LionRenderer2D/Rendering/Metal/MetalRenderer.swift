@@ -69,6 +69,10 @@ public final class MetalRenderer: NSObject, PRenderer, MTKViewDelegate {
     public func assign(resource: ResourceDescriptor, to: RenderComponent) {
         
     }
+    
+    public func resource(forComponent: RenderComponent) -> Void {
+        return Void()
+    }
 
 }
 #endif

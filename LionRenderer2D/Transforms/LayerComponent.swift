@@ -8,6 +8,10 @@
 
 import LionECS
 
-public struct Layer: PComponent {
+public struct LayerComponent: PComponent {
     public var layer: Int
+    
+    public init(layer: Int) {
+        self.layer = layer
+    }
 }

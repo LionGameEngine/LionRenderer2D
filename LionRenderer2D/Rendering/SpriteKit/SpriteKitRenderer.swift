@@ -14,9 +14,12 @@ public final class SpriteKitRenderer: NSObject, PRenderer, SKSceneDelegate {
     public typealias ResourceDescriptor = SKNode
     private let scene: SKScene
     private var nodes: [Int: SKNode] = [:]
+    var rootNode: SKNode
     
     public init(scene: SKScene) {
         self.scene = scene
+        rootNode = SKNode()
+        scene.addChild(rootNode)
     }
     
     public func render(renderable: RenderComponent, atPosition: WorldPositionComponent, withRotation: WorldRotationComponent) {
@@ -26,7 +29,11 @@ public final class SpriteKitRenderer: NSObject, PRenderer, SKSceneDelegate {
     
     public func assign(resource: SKNode, to: RenderComponent) {
         nodes[to.resourceId] = resource
-        scene.addChild(resource)
+        rootNode.addChild(resource)
+    }
+    
+    public func resource(forComponent: RenderComponent) -> SKNode {
+        return nodes[forComponent.resourceId]!
     }
 }
 

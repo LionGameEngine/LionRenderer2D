@@ -16,17 +16,37 @@ public final class RenderSystem<ComponentManager: PComponentManager, Renderer: P
     }
     
     override public func update() {
-        let query = EntityQuery<ComponentManager>(filters: [
-            Requires<WorldPositionComponent>(),
-            Requires<RenderComponent>(),
-            Requires<WorldRotationComponent>()])
-        let result = try! entityRequester.queryEntities(query: query)
-        result.forEach { (renderable: RenderComponent, position: WorldPositionComponent, rotation: WorldRotationComponent) in
-            renderer.render(renderable: renderable, atPosition: position, withRotation: rotation)
+        for layer in getLayers() {
+            renderLayer(layer: layer)
         }
     }
     
     public func assign(resource: Renderer.ResourceDescriptor, to: RenderComponent) {
         renderer.assign(resource: resource, to: to)
+    }
+    
+    private func getLayers() -> [Int] {
+        var layers: [Int] = []
+        let query = EntityQuery<ComponentManager>(filters: [
+            Requires<LayerComponent>()])
+        let result = try! entityRequester.queryEntities(query: query)
+        result.forEach { (layerComponent: LayerComponent) in
+            layers.append(layerComponent.layer)
+        }
+        return layers.sorted()
+    }
+    
+    private func renderLayer(layer: Int) {
+        let query = EntityQuery<ComponentManager>(filters: [
+            Requires<LayerComponent>(),
+            Requires<WorldPositionComponent>(),
+            Requires<RenderComponent>(),
+            Requires<WorldRotationComponent>()])
+        let result = try! entityRequester.queryEntities(query: query)
+        result.forEach { (renderable: RenderComponent, layerComponent: LayerComponent, position: WorldPositionComponent, rotation: WorldRotationComponent) in
+            guard layerComponent.layer == layer else { return }
+            renderer.render(renderable: renderable, atPosition: position, withRotation: rotation)
+        }
+
     }
 }
