@@ -12,10 +12,9 @@ import UIKit
 import Cocoa
 #endif
 
-#if os(iOS) || os(OSX) || os(tvOS)
+#if canImport(Metal) && canImport(MetalKit)
 import Metal
 import MetalKit
-import LionRenderer2D
 
 public final class MetalRenderer: NSObject, PRenderer, MTKViewDelegate {
     private var view: MTKView
