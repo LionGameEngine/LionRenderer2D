@@ -17,7 +17,7 @@ let package = Package(
             targets: ["LionRenderer2D"])
     ],
     dependencies: [
-        .package(url: "https://github.com/LionGameEngine/LionECS.git")
+        .package(url: "https://github.com/LionGameEngine/LionECS.git", from: "0.0.4")
     ],
     targets: [
         .target(
